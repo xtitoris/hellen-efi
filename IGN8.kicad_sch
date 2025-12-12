@@ -1393,247 +1393,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_NIGBT_GCE"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NIGBT_GCE"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-IGBT transistor, gate/collector/emitter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor IGBT N-IGBT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_NIGBT_GCE_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.032) (xy 0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy 0.762 -2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 -2.159) (xy 1.651 -1.651) (xy 2.54 -2.413) (xy 1.397 -2.159)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.159 1.905) (xy 1.905 2.413) (xy 1.016 1.651) (xy 2.159 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.413) (xy 0.762 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -0.889) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.413) (xy 0.762 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_NIGBT_GCE_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.334)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1969,150 +1728,101 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Remove R13-R16, R21-R24, and install Q1-Q8 for use with dumb coils"
+	(text_box "TODO:\n- Check output pulldown requirements for signal integrity\n- Check slew rate for EMI suppression"
 		(exclude_from_sim no)
-		(at 125.476 23.876 0)
+		(at 101.6 143.51 0)
+		(size 67.31 16.51)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left top)
 		)
-		(uuid "a0243fcb-b169-4793-9e30-48a6d3ba6e7e")
+		(uuid "da7a3fca-de6c-46bf-8c99-0a7af4fc2830")
 	)
 	(junction
-		(at 199.39 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "011ab218-2bdf-4af2-b9a9-57bd1eeaeecc")
-	)
-	(junction
-		(at 156.21 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02501001-85fa-438d-94ee-df2db37a4a0a")
-	)
-	(junction
-		(at 199.39 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "195d89ef-b0ab-46fe-b6e3-49883c88f416")
-	)
-	(junction
-		(at 58.42 36.83)
+		(at 133.35 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1aea5757-8906-422e-9e9b-7bf4d32c9e24")
 	)
 	(junction
-		(at 181.61 149.86)
+		(at 87.63 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "34bacb62-6059-489b-82fe-1359f34ee4f0")
+		(uuid "3d539fc4-a924-4bc0-b485-c39847ebc3d7")
 	)
 	(junction
-		(at 156.21 127)
+		(at 80.01 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5a9a88d3-cc36-402a-a7a4-28cac88979fe")
+		(uuid "5dfbac8d-fb51-4199-bd33-35c44faa0b28")
 	)
 	(junction
-		(at 138.43 71.12)
+		(at 49.53 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5f9aaeb4-83ae-436f-aeb7-37e710a16473")
+		(uuid "63af8336-a89a-4a69-915d-5b20938804cd")
 	)
 	(junction
-		(at 181.61 119.38)
+		(at 72.39 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "84993560-6f9e-4c2b-a232-d12b78e2b0ba")
+		(uuid "7bd61a07-ddc6-4956-a2ab-3cc6ce1279c5")
 	)
 	(junction
-		(at 74.93 36.83)
+		(at 149.86 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90b1a9aa-a333-4f5a-9b39-7a8be969fc00")
 	)
 	(junction
-		(at 138.43 101.6)
+		(at 95.25 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "98d44446-9500-4e74-bdf3-3086d1fec836")
+		(uuid "bf8bf32e-f2e5-46f4-9070-b033da633f8e")
 	)
 	(junction
-		(at 181.61 88.9)
+		(at 64.77 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a666a97e-87d3-4327-8074-e5316b32bf96")
+		(uuid "c8deff1e-34a2-45b9-bb8b-4b5596467d4c")
 	)
 	(junction
-		(at 199.39 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a70aa31e-cd45-4ed3-a356-ad12bcca0bf5")
-	)
-	(junction
-		(at 199.39 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5cf7b97-4b1e-4d1a-b6ef-c98f9cb16cd1")
-	)
-	(junction
-		(at 138.43 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c25f4997-f6ba-4499-b937-b086bbd71e5f")
-	)
-	(junction
-		(at 66.04 110.49)
+		(at 140.97 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d26d5aec-43ef-4c7d-80a5-e1f9a33ac70c")
 	)
 	(junction
-		(at 81.28 102.87)
+		(at 156.21 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2f03c02-7803-49e8-b30a-5a6337e9ee6a")
 	)
 	(junction
-		(at 138.43 132.08)
+		(at 102.87 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dad8a013-2539-404b-9a2b-a432f0f79e89")
+		(uuid "e8ed7e13-3a4a-43fe-8a44-23de54873456")
 	)
 	(junction
-		(at 181.61 58.42)
+		(at 57.15 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e36688bb-a39a-4d3a-a80f-2b741ec9c3ea")
-	)
-	(junction
-		(at 156.21 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4000c9b-4dab-4103-a55b-230098e6f655")
-	)
-	(junction
-		(at 156.21 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd76fa41-cc08-4690-8f5c-c994fe2c3ded")
+		(uuid "f105c103-b71d-402c-9c55-6820b60ee200")
 	)
 	(wire
 		(pts
-			(xy 199.39 93.98) (xy 199.39 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08c5202c-4a15-45b0-b1b4-f16ac83a2ee2")
-	)
-	(wire
-		(pts
-			(xy 114.3 119.38) (xy 114.3 87.63)
+			(xy 189.23 114.3) (xy 189.23 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2122,17 +1832,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 137.16) (xy 156.21 139.7)
+			(xy 64.77 87.63) (xy 64.77 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e47bff4-48a0-4ac3-8880-f319fe946a1c")
+		(uuid "0cfd8657-dcee-420e-84c7-93347ac03412")
 	)
 	(wire
 		(pts
-			(xy 130.81 132.08) (xy 106.68 132.08)
+			(xy 201.93 132.08) (xy 181.61 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2142,7 +1852,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 36.83) (xy 80.01 36.83)
+			(xy 149.86 36.83) (xy 154.94 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2152,7 +1862,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 88.9) (xy 125.73 88.9)
+			(xy 201.93 88.9) (xy 200.66 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2162,7 +1872,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 71.12) (xy 130.81 71.12)
+			(xy 200.66 71.12) (xy 201.93 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2172,47 +1882,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 53.34) (xy 199.39 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19def530-b604-463e-bc3f-e72b17cce03e")
-	)
-	(wire
-		(pts
-			(xy 199.39 53.34) (xy 191.77 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aa538c5-a02c-4b1f-be0a-f0cd71e0f03c")
-	)
-	(wire
-		(pts
-			(xy 156.21 106.68) (xy 156.21 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bcf0fd8-6eab-4c68-9d56-5ba13c1e0f70")
-	)
-	(wire
-		(pts
-			(xy 138.43 96.52) (xy 138.43 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dd331e2-469b-4296-8685-829f9bbb4638")
-	)
-	(wire
-		(pts
-			(xy 92.71 97.79) (xy 99.06 97.79)
+			(xy 167.64 97.79) (xy 173.99 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2222,7 +1892,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 97.79) (xy 55.88 97.79)
+			(xy 25.4 97.79) (xy 49.53 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2232,7 +1902,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 102.87) (xy 81.28 102.87)
+			(xy 151.13 102.87) (xy 156.21 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2242,7 +1912,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 87.63) (xy 55.88 87.63)
+			(xy 25.4 87.63) (xy 64.77 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2252,7 +1922,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 82.55) (xy 55.88 82.55)
+			(xy 25.4 82.55) (xy 72.39 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2262,7 +1932,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 62.23) (xy 113.03 40.64)
+			(xy 187.96 62.23) (xy 187.96 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2272,17 +1942,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 154.94) (xy 199.39 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3049bf9c-d263-40d2-bb1a-e012bedae049")
-	)
-	(wire
-		(pts
-			(xy 92.71 67.31) (xy 121.92 67.31)
+			(xy 167.64 67.31) (xy 196.85 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2292,17 +1952,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 127) (xy 156.21 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3069f49a-a0c2-40ba-b4fd-c5eb39dc0f9f")
-	)
-	(wire
-		(pts
-			(xy 25.4 67.31) (xy 55.88 67.31)
+			(xy 25.4 67.31) (xy 95.25 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2312,7 +1962,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 132.08) (xy 106.68 92.71)
+			(xy 181.61 132.08) (xy 181.61 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2322,7 +1972,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 48.26) (xy 80.01 52.07)
+			(xy 154.94 48.26) (xy 154.94 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2332,7 +1982,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 31.75) (xy 58.42 36.83)
+			(xy 133.35 31.75) (xy 133.35 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2342,7 +1992,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 62.23) (xy 93.98 62.23)
+			(xy 151.13 62.23) (xy 168.91 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2352,7 +2002,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 97.79) (xy 99.06 149.86)
+			(xy 64.77 87.63) (xy 130.81 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c3fc22d-fd04-4d70-959c-fed03a6aea60")
+	)
+	(wire
+		(pts
+			(xy 173.99 97.79) (xy 173.99 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2362,7 +2022,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 92.71) (xy 55.88 92.71)
+			(xy 25.4 92.71) (xy 57.15 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2372,17 +2032,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 76.2) (xy 156.21 80.01)
+			(xy 209.55 148.59) (xy 232.41 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3eca1b33-f30f-45cd-9909-101f3caffec2")
+		(uuid "3df1333c-25eb-4e11-b1a2-49e749b1285a")
 	)
 	(wire
 		(pts
-			(xy 74.93 31.75) (xy 74.93 36.83)
+			(xy 149.86 31.75) (xy 149.86 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2392,7 +2052,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 48.26) (xy 52.07 50.8)
+			(xy 127 48.26) (xy 127 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2402,27 +2062,17 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 114.3) (xy 191.77 114.3)
+			(xy 87.63 72.39) (xy 130.81 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44fe53ae-4b84-4040-a698-104503f960a3")
+		(uuid "470bea8d-a821-445e-850f-2f5a4077cb68")
 	)
 	(wire
 		(pts
-			(xy 161.29 35.56) (xy 156.21 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b3ff189-6279-477a-8e50-5535e3b04073")
-	)
-	(wire
-		(pts
-			(xy 101.6 72.39) (xy 125.73 72.39)
+			(xy 176.53 72.39) (xy 200.66 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2432,7 +2082,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 36.83) (xy 74.93 36.83)
+			(xy 143.51 36.83) (xy 149.86 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2442,7 +2092,17 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 72.39) (xy 55.88 72.39)
+			(xy 209.55 132.08) (xy 232.41 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558fd667-9dc4-4fdb-ae42-7fbd7989f550")
+	)
+	(wire
+		(pts
+			(xy 25.4 72.39) (xy 87.63 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2452,17 +2112,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 127) (xy 148.59 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5677db54-8f58-474f-a297-2ff30d792d47")
-	)
-	(wire
-		(pts
-			(xy 58.42 36.83) (xy 52.07 36.83)
+			(xy 133.35 36.83) (xy 127 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2472,7 +2122,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 62.23) (xy 55.88 62.23)
+			(xy 25.4 62.23) (xy 102.87 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2482,7 +2132,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 92.71) (xy 101.6 92.71)
+			(xy 181.61 92.71) (xy 176.53 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2492,7 +2142,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 40.64) (xy 130.81 40.64)
+			(xy 187.96 40.64) (xy 201.93 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2502,7 +2152,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 52.07) (xy 63.5 36.83)
+			(xy 138.43 52.07) (xy 138.43 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2512,7 +2162,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 102.87) (xy 81.28 110.49)
+			(xy 156.21 102.87) (xy 156.21 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2522,17 +2172,17 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 66.04) (xy 156.21 66.04)
+			(xy 72.39 82.55) (xy 72.39 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6581953d-5686-4841-b2bf-7c8b83340eae")
+		(uuid "666100ef-cdba-474b-a4ca-006e6c710af9")
 	)
 	(wire
 		(pts
-			(xy 52.07 36.83) (xy 52.07 40.64)
+			(xy 127 36.83) (xy 127 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2542,27 +2192,27 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 83.82) (xy 199.39 83.82)
+			(xy 102.87 62.23) (xy 130.81 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "687ba7f9-e377-4ecb-8d08-3f6e420ec415")
+		(uuid "6c3f3988-7e1f-49ec-ad25-d0c1947dab30")
 	)
 	(wire
 		(pts
-			(xy 138.43 127) (xy 138.43 132.08)
+			(xy 87.63 72.39) (xy 87.63 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6deb9273-feb6-4cca-a3ac-41cd3ff9356d")
+		(uuid "702b11df-5383-4e98-be93-f3244d1a174a")
 	)
 	(wire
 		(pts
-			(xy 85.09 87.63) (xy 76.2 87.63)
+			(xy 160.02 87.63) (xy 151.13 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2572,7 +2222,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 87.63) (xy 92.71 87.63)
+			(xy 209.55 40.64) (xy 232.41 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e1e6c4-3481-489c-90f3-f0c542ea3c55")
+	)
+	(wire
+		(pts
+			(xy 189.23 87.63) (xy 167.64 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2582,7 +2242,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 66.04) (xy 138.43 71.12)
+			(xy 209.55 71.12) (xy 232.41 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2592,27 +2252,27 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 66.04) (xy 148.59 66.04)
+			(xy 95.25 67.31) (xy 130.81 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8241a754-0053-4a20-8fcd-152b563eb0e0")
+		(uuid "80b1730d-69b6-455e-bde0-58ad343c3b44")
 	)
 	(wire
 		(pts
-			(xy 181.61 144.78) (xy 181.61 149.86)
+			(xy 95.25 67.31) (xy 95.25 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "83f5424d-dbf3-4a0c-9dd9-add97ac1ffc5")
+		(uuid "80ed8431-9e80-4390-9b78-a9e136b12a9f")
 	)
 	(wire
 		(pts
-			(xy 101.6 82.55) (xy 121.92 82.55)
+			(xy 176.53 82.55) (xy 196.85 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2622,7 +2282,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 52.07) (xy 68.58 36.83)
+			(xy 143.51 52.07) (xy 143.51 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2632,7 +2292,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 31.75) (xy 58.42 31.75)
+			(xy 124.46 31.75) (xy 133.35 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2642,17 +2302,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 63.5) (xy 199.39 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "917da504-13bf-44e9-a39a-26bae3a05d1e")
-	)
-	(wire
-		(pts
-			(xy 80.01 36.83) (xy 80.01 40.64)
+			(xy 154.94 36.83) (xy 154.94 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2662,17 +2312,17 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 124.46) (xy 199.39 127)
+			(xy 49.53 97.79) (xy 130.81 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94476e25-da00-40c3-a520-273b37501cd3")
+		(uuid "94b7e17f-4187-4acb-8ccd-174048d820db")
 	)
 	(wire
 		(pts
-			(xy 81.28 100.33) (xy 81.28 102.87)
+			(xy 156.21 100.33) (xy 156.21 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2682,7 +2332,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 110.49) (xy 66.04 110.49)
+			(xy 156.21 110.49) (xy 140.97 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2692,27 +2342,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 96.52) (xy 148.59 96.52)
+			(xy 209.55 58.42) (xy 232.41 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b8e705d-f11d-4b7b-8e8a-e0833b874717")
+		(uuid "9cdb8acd-74f7-40b6-b172-a5f6b7147e73")
 	)
 	(wire
 		(pts
-			(xy 204.47 144.78) (xy 199.39 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f3cc60b-4b89-4513-bd0b-5a32da4de319")
-	)
-	(wire
-		(pts
-			(xy 99.06 149.86) (xy 173.99 149.86)
+			(xy 173.99 148.59) (xy 201.93 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2722,17 +2362,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 35.56) (xy 148.59 35.56)
+			(xy 209.55 96.52) (xy 232.41 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0326271-e757-41f3-a49f-3ebd0929177e")
+		(uuid "a0988657-0448-4b88-b810-34123135e7d1")
 	)
 	(wire
 		(pts
-			(xy 66.04 107.95) (xy 66.04 110.49)
+			(xy 140.97 107.95) (xy 140.97 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2742,7 +2382,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 82.55) (xy 93.98 82.55)
+			(xy 151.13 82.55) (xy 168.91 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2752,7 +2392,17 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 110.49) (xy 66.04 111.76)
+			(xy 49.53 97.79) (xy 49.53 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82a766e-a07f-44dc-9510-e8d7278edf3e")
+	)
+	(wire
+		(pts
+			(xy 140.97 110.49) (xy 140.97 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2762,7 +2412,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 88.9) (xy 125.73 77.47)
+			(xy 200.66 88.9) (xy 200.66 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2772,7 +2422,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 77.47) (xy 76.2 77.47)
+			(xy 160.02 77.47) (xy 151.13 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2782,17 +2432,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 83.82) (xy 191.77 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baa12e5c-2b23-4c68-9829-c22d923a3501")
-	)
-	(wire
-		(pts
-			(xy 121.92 58.42) (xy 173.99 58.42)
+			(xy 196.85 58.42) (xy 201.93 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2802,7 +2442,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 100.33) (xy 81.28 100.33)
+			(xy 151.13 100.33) (xy 156.21 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2812,7 +2452,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 97.79) (xy 85.09 97.79)
+			(xy 151.13 97.79) (xy 160.02 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2822,7 +2462,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 101.6) (xy 130.81 101.6)
+			(xy 196.85 96.52) (xy 201.93 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2832,17 +2472,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 35.56) (xy 138.43 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1e97aad-59d5-436b-b613-b06c0662af4b")
-	)
-	(wire
-		(pts
-			(xy 76.2 67.31) (xy 85.09 67.31)
+			(xy 151.13 67.31) (xy 160.02 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2852,7 +2482,17 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 62.23) (xy 113.03 62.23)
+			(xy 102.87 62.23) (xy 102.87 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9488248-2bbd-4a15-8e59-fdd49fc85ab0")
+	)
+	(wire
+		(pts
+			(xy 176.53 62.23) (xy 187.96 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2862,7 +2502,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 77.47) (xy 55.88 77.47)
+			(xy 25.4 77.47) (xy 80.01 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2872,27 +2512,37 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 144.78) (xy 191.77 144.78)
+			(xy 57.15 92.71) (xy 57.15 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d939c016-9af7-43f8-b5d0-d03d26d91100")
+		(uuid "d3697176-85ca-455c-bb8a-129c6bc98ee6")
 	)
 	(wire
 		(pts
-			(xy 181.61 83.82) (xy 181.61 88.9)
+			(xy 209.55 88.9) (xy 232.41 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dbaf2af8-a63b-4f1a-9063-5c7b2b6dd436")
+		(uuid "d6c64207-faff-469d-8ce3-9103d5cc72ce")
 	)
 	(wire
 		(pts
-			(xy 69.85 31.75) (xy 74.93 31.75)
+			(xy 57.15 92.71) (xy 130.81 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db0aa43c-7727-44a1-8401-10cb50d3c940")
+	)
+	(wire
+		(pts
+			(xy 144.78 31.75) (xy 149.86 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2902,7 +2552,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 72.39) (xy 125.73 71.12)
+			(xy 200.66 72.39) (xy 200.66 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2912,7 +2562,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 119.38) (xy 114.3 119.38)
+			(xy 201.93 114.3) (xy 189.23 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2922,7 +2572,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 67.31) (xy 121.92 58.42)
+			(xy 196.85 67.31) (xy 196.85 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2932,17 +2582,27 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 96.52) (xy 156.21 96.52)
+			(xy 80.01 77.47) (xy 130.81 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4a4545e-257c-4894-b952-5d56429b6716")
+		(uuid "e5145bbf-120c-4b36-877e-c3a73c68f04f")
 	)
 	(wire
 		(pts
-			(xy 125.73 77.47) (xy 92.71 77.47)
+			(xy 80.01 77.47) (xy 80.01 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6171048-b377-49a8-9ee3-fdc093ebc234")
+	)
+	(wire
+		(pts
+			(xy 200.66 77.47) (xy 167.64 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2952,7 +2612,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 36.83) (xy 58.42 36.83)
+			(xy 138.43 36.83) (xy 133.35 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2962,7 +2622,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 82.55) (xy 121.92 101.6)
+			(xy 196.85 82.55) (xy 196.85 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2972,17 +2632,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 53.34) (xy 181.61 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef498a62-bf22-4ba1-933d-1cdf91f3b440")
-	)
-	(wire
-		(pts
-			(xy 76.2 72.39) (xy 93.98 72.39)
+			(xy 151.13 72.39) (xy 168.91 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2992,7 +2642,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 114.3) (xy 181.61 119.38)
+			(xy 209.55 114.3) (xy 232.41 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3002,17 +2652,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 114.3) (xy 199.39 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7a1f6de-bc40-435d-8e32-7907982fddf6")
-	)
-	(wire
-		(pts
-			(xy 93.98 92.71) (xy 76.2 92.71)
+			(xy 168.91 92.71) (xy 151.13 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3022,13 +2662,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 45.72) (xy 156.21 48.26)
+			(xy 72.39 82.55) (xy 130.81 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fee7d90c-6da2-4bd8-90b4-4c6219819d51")
+		(uuid "fcddf09d-928c-4cd0-91c9-f56d4631a910")
 	)
 	(hierarchical_label "IN6"
 		(shape input)
@@ -3043,7 +2683,7 @@
 	)
 	(hierarchical_label "OUT8"
 		(shape output)
-		(at 204.47 144.78 0)
+		(at 232.41 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3054,7 +2694,7 @@
 	)
 	(hierarchical_label "OUT5"
 		(shape output)
-		(at 161.29 96.52 0)
+		(at 232.41 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3098,7 +2738,7 @@
 	)
 	(hierarchical_label "OUT3"
 		(shape output)
-		(at 161.29 66.04 0)
+		(at 232.41 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3109,7 +2749,7 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 49.53 31.75 180)
+		(at 124.46 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3120,7 +2760,7 @@
 	)
 	(hierarchical_label "OUT2"
 		(shape output)
-		(at 204.47 53.34 0)
+		(at 232.41 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3131,7 +2771,7 @@
 	)
 	(hierarchical_label "OUT1"
 		(shape output)
-		(at 161.29 35.56 0)
+		(at 232.41 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3142,7 +2782,7 @@
 	)
 	(hierarchical_label "OUT6"
 		(shape output)
-		(at 204.47 114.3 0)
+		(at 232.41 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3153,7 +2793,7 @@
 	)
 	(hierarchical_label "OUT4"
 		(shape output)
-		(at 204.47 83.82 0)
+		(at 232.41 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3175,7 +2815,7 @@
 	)
 	(hierarchical_label "OUT7"
 		(shape output)
-		(at 161.29 127 0)
+		(at 232.41 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3197,7 +2837,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 69.85 31.75 180)
+		(at 144.78 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3229,124 +2869,8 @@
 		(uuid "ff2e837a-1ea9-4f7c-ae2f-a9406a2b7fd3")
 	)
 	(symbol
-		(lib_id "Device:Q_NIGBT_GCE")
-		(at 196.85 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "007e3d0d-aa46-4fe8-b808-b02941d83161")
-		(property "Reference" "Q7"
-			(at 201.7014 118.2116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ISL9V3040D3ST"
-			(at 201.7014 120.523 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 201.93 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 196.85 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MyComment" "DNP"
-			(at 203.2 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Type" ""
-			(at 196.85 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 196.85 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vrat" ""
-			(at 196.85 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab1084d2-37c6-49d0-8100-a3444e446569")
-		)
-		(pin "2"
-			(uuid "9095ad18-9aac-4300-8b8e-d912a5cafb60")
-		)
-		(pin "3"
-			(uuid "cad1c319-ef6e-4d85-9366-08c68cde2477")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 134.62 71.12 270)
+		(at 205.74 71.12 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3355,7 +2879,7 @@
 		(dnp no)
 		(uuid "02e392c0-f907-4220-80f8-b5f2c7dbb6e6")
 		(property "Reference" "F4"
-			(at 134.62 68.58 90)
+			(at 205.74 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,7 +2887,7 @@
 			)
 		)
 		(property "Value" "50mA"
-			(at 134.62 73.66 90)
+			(at 205.74 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,7 +2895,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 129.54 69.85 0)
+			(at 200.66 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,7 +2905,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 71.12 0)
+			(at 205.74 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +2914,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 71.12 0)
+			(at 205.74 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3399,7 +2923,7 @@
 			)
 		)
 		(property "LCSC" "C369141"
-			(at 134.62 71.12 90)
+			(at 205.74 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3408,7 +2932,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 134.62 71.12 90)
+			(at 205.74 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3417,7 +2941,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 134.62 71.12 90)
+			(at 205.74 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,7 +2950,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 134.62 71.12 90)
+			(at 205.74 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 205.74 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3451,16 +2984,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 111.76 0)
+		(at 102.87 119.38 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "13c13369-9465-4a34-9d4e-df798fe655b7")
+		(uuid "0d72cf93-0f3c-49ab-a67b-ebd62e15093d")
 		(property "Reference" "#PWR053"
-			(at 66.04 118.11 0)
+			(at 102.87 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3469,7 +3002,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 115.57 0)
+			(at 102.87 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3477,7 +3010,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 111.76 0)
+			(at 102.87 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +3019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 111.76 0)
+			(at 102.87 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,7 +3028,186 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 111.76 0)
+			(at 102.87 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca06c43f-19de-4115-b95d-d46817f63cdf")
+		)
+		(instances
+			(project "trove8"
+				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hellen-one-common:Res")
+		(at 102.87 119.38 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13b862fa-770d-4595-b225-7535b2f6c028")
+		(property "Reference" "R12"
+			(at 105.41 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 102.87 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 99.06 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 102.87 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 102.87 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 102.87 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vrat" ""
+			(at 102.87 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 102.87 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27486bd9-4b1d-477e-ab36-b650c14fb440")
+		)
+		(pin "2"
+			(uuid "d0b54132-9062-4876-b107-fc474d82e553")
+		)
+		(instances
+			(project "trove8"
+				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 111.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13c13369-9465-4a34-9d4e-df798fe655b7")
+		(property "Reference" "#PWR055"
+			(at 140.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3509,7 +3221,7 @@
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "#PWR053")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -3517,15 +3229,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 88.9 67.31 90)
+		(at 163.83 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1a8c95fc-e0ab-4385-9a16-cd53834b0249")
-		(property "Reference" "R5"
-			(at 88.9 65.024 90)
+		(property "Reference" "R13"
+			(at 163.83 65.024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3533,7 +3245,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 88.9 69.596 90)
+			(at 163.83 69.596 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3541,7 +3253,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 88.9 69.088 90)
+			(at 163.83 69.088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3550,7 +3262,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 67.31 0)
+			(at 163.83 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,7 +3271,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 88.9 67.31 0)
+			(at 163.83 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3568,7 +3280,7 @@
 			)
 		)
 		(property "LCSC" "C25077"
-			(at 88.9 67.31 90)
+			(at 163.83 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,7 +3289,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 88.9 67.31 90)
+			(at 163.83 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3586,7 +3298,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 88.9 67.31 90)
+			(at 163.83 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3595,7 +3307,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 88.9 67.31 90)
+			(at 163.83 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 163.83 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3612,7 +3333,7 @@
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R5")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3620,31 +3341,32 @@
 	)
 	(symbol
 		(lib_id "hellen-one-common:Res")
-		(at 191.77 149.86 180)
+		(at 64.77 119.38 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1bd6c59b-c724-40d8-9957-1a1118b8183e")
-		(property "Reference" "R28"
-			(at 186.448 147.5118 0)
+		(uuid "351f8ce7-0876-4192-b553-4e7c13313e69")
+		(property "Reference" "R7"
+			(at 67.31 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "22"
-			(at 186.69 149.86 0)
+		(property "Value" "4.7k"
+			(at 64.77 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "hellen-one-common:R0603"
-			(at 187.96 146.05 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 60.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,7 +3375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 149.86 0)
+			(at 64.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,7 +3384,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 149.86 0)
+			(at 64.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,111 +3392,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23345"
-			(at 191.77 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Type" ""
-			(at 191.77 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 191.77 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vrat" ""
-			(at 191.77 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aae86d46-4591-422e-b43c-45168756a5c2")
-		)
-		(pin "2"
-			(uuid "39c632b1-2c4f-482b-939b-1fe6c743afba")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:Res")
-		(at 138.43 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2128eb70-f7e0-499e-9318-274ee14d2fe9")
-		(property "Reference" "R14"
-			(at 143.8304 63.3953 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 143.51 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 142.24 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17888"
-			(at 138.43 66.04 0)
+		(property "LCSC" "C23162"
+			(at 64.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3783,7 +3402,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 138.43 66.04 0)
+			(at 64.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3792,7 +3411,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 138.43 66.04 0)
+			(at 64.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3801,7 +3420,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 138.43 66.04 0)
+			(at 64.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 64.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3810,131 +3438,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e143307f-3f41-4b13-a146-4227b0e65451")
+			(uuid "39f7d27c-5829-45d5-b77b-4dce5f662be2")
 		)
 		(pin "2"
-			(uuid "f55697b3-3ae2-4fed-bad8-281c8c791c82")
+			(uuid "2bd53861-6517-422e-b7e7-bc66d998f625")
 		)
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NIGBT_GCE")
-		(at 196.85 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "247c46c7-5315-46a7-8cb5-6d8f9111e77c")
-		(property "Reference" "Q5"
-			(at 201.7014 57.2516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ISL9V3040D3ST"
-			(at 201.7014 59.563 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 201.93 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 196.85 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MyComment" "DNP"
-			(at 203.2 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Type" ""
-			(at 196.85 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 196.85 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vrat" ""
-			(at 196.85 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "093484dd-4013-424d-ae25-45bb5209c363")
-		)
-		(pin "2"
-			(uuid "64127a18-3788-4a4b-b6b6-df435fe4861b")
-		)
-		(pin "3"
-			(uuid "bdd413df-fc87-4631-bf03-b07b9917af88")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "Q5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3942,15 +3454,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 88.9 77.47 90)
+		(at 163.83 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "38203927-1e3b-456c-b7e7-47adf4b4caab")
-		(property "Reference" "R6"
-			(at 88.9 75.184 90)
+		(property "Reference" "R14"
+			(at 163.83 75.184 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,7 +3470,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 88.9 79.756 90)
+			(at 163.83 79.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3966,7 +3478,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 88.9 79.248 90)
+			(at 163.83 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3975,7 +3487,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 77.47 0)
+			(at 163.83 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3984,7 +3496,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 88.9 77.47 0)
+			(at 163.83 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,7 +3505,7 @@
 			)
 		)
 		(property "LCSC" "C25077"
-			(at 88.9 77.47 90)
+			(at 163.83 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4002,7 +3514,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 88.9 77.47 90)
+			(at 163.83 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,7 +3523,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 88.9 77.47 90)
+			(at 163.83 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4020,7 +3532,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 88.9 77.47 90)
+			(at 163.83 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 163.83 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4037,7 +3558,7 @@
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R6")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4045,7 +3566,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 177.8 58.42 270)
+		(at 205.74 58.42 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4053,8 +3574,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38d51a47-bd38-4067-a5b9-36881049d0cb")
-		(property "Reference" "F7"
-			(at 177.8 55.88 90)
+		(property "Reference" "F3"
+			(at 205.74 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4062,7 +3583,7 @@
 			)
 		)
 		(property "Value" "50mA"
-			(at 177.8 60.96 90)
+			(at 205.74 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4070,7 +3591,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 172.72 57.15 0)
+			(at 200.66 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4080,7 +3601,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 58.42 0)
+			(at 205.74 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4089,7 +3610,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 58.42 0)
+			(at 205.74 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,7 +3619,7 @@
 			)
 		)
 		(property "LCSC" "C369141"
-			(at 177.8 58.42 90)
+			(at 205.74 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4107,7 +3628,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 177.8 58.42 90)
+			(at 205.74 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4116,7 +3637,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 177.8 58.42 90)
+			(at 205.74 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,7 +3646,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 177.8 58.42 90)
+			(at 205.74 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 205.74 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4142,7 +3672,7 @@
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "F7")
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -4150,31 +3680,32 @@
 	)
 	(symbol
 		(lib_id "hellen-one-common:Res")
-		(at 148.59 132.08 180)
+		(at 49.53 119.38 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3ef5d410-c3f1-40b5-98d4-2c5ac5352f44")
-		(property "Reference" "R20"
-			(at 143.268 129.7318 0)
+		(uuid "493ddcfe-d1ce-4fd6-a06a-ef7b0e06176f")
+		(property "Reference" "R5"
+			(at 52.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "22"
-			(at 143.51 132.08 0)
+		(property "Value" "4.7k"
+			(at 49.53 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "hellen-one-common:R0603"
-			(at 144.78 128.27 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 45.72 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,7 +3714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 132.08 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,7 +3723,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 132.08 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4200,8 +3731,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23345"
-			(at 148.59 132.08 0)
+		(property "LCSC" "C23162"
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4210,7 +3741,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 148.59 132.08 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4219,7 +3750,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 148.59 132.08 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4228,7 +3759,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 148.59 132.08 0)
+			(at 49.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4237,81 +3777,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "76cfd95c-aa08-48f2-b83f-4db91356a46e")
+			(uuid "c8068b0e-6db0-4e9a-9902-88d8cb0b880b")
 		)
 		(pin "2"
-			(uuid "c17c6e7f-490f-4f04-b585-e4fce49a0833")
+			(uuid "e81a0e05-4cf2-4071-8620-88dd3df5bf2b")
 		)
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 199.39 127 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "427728ee-06e2-4de6-afcf-18633b0b8496")
-		(property "Reference" "#PWR061"
-			(at 199.39 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 199.39 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ccc678b4-df36-44ca-b3e2-d60286df3f8e")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "#PWR061")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4319,7 +3793,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 177.8 88.9 270)
+		(at 205.74 88.9 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4327,8 +3801,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "539da5c1-e20c-4d0b-9eb0-ee7a9ad6ec64")
-		(property "Reference" "F8"
-			(at 177.8 86.36 90)
+		(property "Reference" "F5"
+			(at 205.74 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,7 +3810,7 @@
 			)
 		)
 		(property "Value" "50mA"
-			(at 177.8 91.44 90)
+			(at 205.74 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4344,7 +3818,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 172.72 87.63 0)
+			(at 200.66 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,7 +3828,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 88.9 0)
+			(at 205.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4363,7 +3837,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 88.9 0)
+			(at 205.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4372,7 +3846,7 @@
 			)
 		)
 		(property "LCSC" "C369141"
-			(at 177.8 88.9 90)
+			(at 205.74 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,7 +3855,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 177.8 88.9 90)
+			(at 205.74 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,7 +3864,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 177.8 88.9 90)
+			(at 205.74 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,7 +3873,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 177.8 88.9 90)
+			(at 205.74 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 205.74 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4416,408 +3899,7 @@
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "F8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NIGBT_GCE")
-		(at 196.85 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "5a21e231-a92c-4570-b132-2decd3096709")
-		(property "Reference" "Q8"
-			(at 201.7014 148.6916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ISL9V3040D3ST"
-			(at 201.7014 151.003 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 201.93 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 196.85 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MyComment" "DNP"
-			(at 203.2 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Type" ""
-			(at 196.85 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 196.85 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vrat" ""
-			(at 196.85 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77d17876-16d6-4dba-8e54-e93f9f5b3939")
-		)
-		(pin "2"
-			(uuid "5d7aab90-2af4-444d-9490-d1ff35b77ff7")
-		)
-		(pin "3"
-			(uuid "10458603-2727-4b39-8dec-964d2164ca74")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:Res")
-		(at 148.59 71.12 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d6724cd-ec73-4f80-917b-f217e13d7757")
-		(property "Reference" "R18"
-			(at 143.268 68.7718 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 143.51 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hellen-one-common:R0603"
-			(at 144.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 148.59 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Type" ""
-			(at 148.59 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 148.59 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vrat" ""
-			(at 148.59 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd1cd431-7c80-4846-9c17-ed180be134f4")
-		)
-		(pin "2"
-			(uuid "f349b92f-2b50-4770-bd02-ac9dbfba5e98")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NIGBT_GCE")
-		(at 153.67 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "5dfea453-70f7-4c31-b555-8aebfc083895")
-		(property "Reference" "Q1"
-			(at 158.5214 39.4716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ISL9V3040D3ST"
-			(at 158.5214 41.783 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 158.75 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 153.67 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MyComment" "DNP"
-			(at 160.02 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Type" ""
-			(at 153.67 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 153.67 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vrat" ""
-			(at 153.67 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3fe41f47-4f07-4d8d-9a38-1a2418219d0e")
-		)
-		(pin "2"
-			(uuid "b3fbaf49-48ad-4231-9b5d-8cc09922c34d")
-		)
-		(pin "3"
-			(uuid "dd1a042a-7954-4e9a-9e72-57331df86064")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 156.21 80.01 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5e45aea1-2305-4f11-a01f-e6c53573b496")
-		(property "Reference" "#PWR056"
-			(at 156.21 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c61280e2-903e-474b-9498-0260e79a4247")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "#PWR056")
+					(reference "F5")
 					(unit 1)
 				)
 			)
@@ -4825,15 +3907,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 88.9 87.63 90)
+		(at 163.83 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "602e9964-5097-4f28-8a59-9e32f3f66dcf")
-		(property "Reference" "R7"
-			(at 88.9 85.344 90)
+		(property "Reference" "R15"
+			(at 163.83 85.344 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4841,7 +3923,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 88.9 89.916 90)
+			(at 163.83 89.916 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4849,7 +3931,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 88.9 89.408 90)
+			(at 163.83 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4858,7 +3940,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 87.63 0)
+			(at 163.83 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4867,7 +3949,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 88.9 87.63 0)
+			(at 163.83 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4876,7 +3958,7 @@
 			)
 		)
 		(property "LCSC" "C25077"
-			(at 88.9 87.63 90)
+			(at 163.83 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4885,7 +3967,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 88.9 87.63 90)
+			(at 163.83 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4894,7 +3976,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 88.9 87.63 90)
+			(at 163.83 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4903,7 +3985,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 88.9 87.63 90)
+			(at 163.83 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 163.83 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4920,123 +4011,7 @@
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NIGBT_GCE")
-		(at 153.67 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "6b800909-d074-4dbe-a04b-e4cb2b67c2b1")
-		(property "Reference" "Q4"
-			(at 158.5214 130.9116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ISL9V3040D3ST"
-			(at 158.5214 133.223 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 158.75 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 153.67 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MyComment" "DNP"
-			(at 160.02 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Type" ""
-			(at 153.67 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 153.67 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vrat" ""
-			(at 153.67 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a77e1876-949f-4f99-a275-d884fcdb9543")
-		)
-		(pin "2"
-			(uuid "db2c1fc9-3b1d-4a86-b22f-9a0494575aee")
-		)
-		(pin "3"
-			(uuid "9f402014-c0af-40f3-9b2e-f14055e62de1")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "Q4")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -5044,16 +4019,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 199.39 157.48 0)
+		(at 80.01 119.38 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7252f413-2c52-44cd-8b56-4d5887f95d93")
-		(property "Reference" "#PWR062"
-			(at 199.39 163.83 0)
+		(uuid "6f32c2c9-b4cc-49de-91cb-55f21053b623")
+		(property "Reference" "#PWR050"
+			(at 80.01 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5062,7 +4037,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 161.29 0)
+			(at 80.01 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5070,7 +4045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 157.48 0)
+			(at 80.01 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5079,7 +4054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 157.48 0)
+			(at 80.01 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5088,7 +4063,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 157.48 0)
+			(at 80.01 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,12 +4072,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e708ed2e-5a15-4373-bc08-4b0dc96759db")
+			(uuid "7da70483-6b2b-4713-b439-4952333de3bc")
 		)
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "#PWR062")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -5110,7 +4085,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 177.8 149.86 270)
+		(at 205.74 148.59 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5118,8 +4093,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74582e7f-aae7-4bd5-8922-bd4012b3feb1")
-		(property "Reference" "F10"
-			(at 177.8 147.32 90)
+		(property "Reference" "F9"
+			(at 205.74 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,7 +4102,7 @@
 			)
 		)
 		(property "Value" "50mA"
-			(at 177.8 152.4 90)
+			(at 205.74 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5135,7 +4110,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 172.72 148.59 0)
+			(at 200.66 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,7 +4120,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 149.86 0)
+			(at 205.74 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5154,7 +4129,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 149.86 0)
+			(at 205.74 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5163,7 +4138,7 @@
 			)
 		)
 		(property "LCSC" "C369141"
-			(at 177.8 149.86 90)
+			(at 205.74 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5172,7 +4147,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 177.8 149.86 90)
+			(at 205.74 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5181,7 +4156,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 177.8 149.86 90)
+			(at 205.74 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5190,7 +4165,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 177.8 149.86 90)
+			(at 205.74 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 205.74 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5207,123 +4191,7 @@
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "F10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NIGBT_GCE")
-		(at 153.67 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "75753624-419d-4d0d-b38b-3a92704c17d2")
-		(property "Reference" "Q3"
-			(at 158.5214 100.4316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ISL9V3040D3ST"
-			(at 158.5214 102.743 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 158.75 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 153.67 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MyComment" "DNP"
-			(at 160.02 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Type" ""
-			(at 153.67 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 153.67 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vrat" ""
-			(at 153.67 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae9a6a69-5b04-4300-ae5e-941c1cd0a230")
-		)
-		(pin "2"
-			(uuid "7e276215-2d92-405d-b562-20ea5bf724ed")
-		)
-		(pin "3"
-			(uuid "354632be-82b6-4d7c-92ab-0e304c0e2e54")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "Q3")
+					(reference "F9")
 					(unit 1)
 				)
 			)
@@ -5331,15 +4199,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 88.9 97.79 90)
+		(at 163.83 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "75f74bb0-fc3f-43d3-b1e7-bebe6159bc21")
-		(property "Reference" "R8"
-			(at 88.9 95.504 90)
+		(property "Reference" "R16"
+			(at 163.83 95.504 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5347,7 +4215,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 88.9 100.076 90)
+			(at 163.83 100.076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +4223,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 88.9 99.568 90)
+			(at 163.83 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,7 +4232,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 97.79 0)
+			(at 163.83 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,7 +4241,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 88.9 97.79 0)
+			(at 163.83 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +4250,7 @@
 			)
 		)
 		(property "LCSC" "C25077"
-			(at 88.9 97.79 90)
+			(at 163.83 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5391,7 +4259,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 88.9 97.79 90)
+			(at 163.83 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5400,7 +4268,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 88.9 97.79 90)
+			(at 163.83 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,7 +4277,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 88.9 97.79 90)
+			(at 163.83 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 163.83 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5426,39 +4303,41 @@
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R8")
+					(reference "R16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "hellen-one-common:Res")
-		(at 191.77 58.42 180)
+		(lib_id "power:GND")
+		(at 57.15 119.38 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7f3722cc-29be-4116-a143-b847cf0a6888")
-		(property "Reference" "R25"
-			(at 186.448 56.0718 0)
+		(uuid "76d394b6-8c6a-4d5e-b592-4d75ac6452bf")
+		(property "Reference" "#PWR047"
+			(at 57.15 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "22"
-			(at 186.69 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hellen-one-common:R0603"
-			(at 187.96 54.61 0)
+		(property "Footprint" ""
+			(at 57.15 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5467,7 +4346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 58.42 0)
+			(at 57.15 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5475,44 +4354,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 191.77 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 191.77 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Type" ""
-			(at 191.77 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 191.77 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vrat" ""
-			(at 191.77 58.42 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5521,15 +4364,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "304a2818-d56a-42f2-88b5-70d26457bf82")
-		)
-		(pin "2"
-			(uuid "723ddf55-94bc-4f90-a13d-e4b6b0dba8cd")
+			(uuid "c3e4f753-3745-44f7-869c-8f87a3ee4044")
 		)
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R25")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -5537,7 +4377,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 52.07 44.45 0)
+		(at 127 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5545,7 +4385,7 @@
 		(dnp no)
 		(uuid "83ca89c8-e1b0-4049-af41-f00bfacf5faa")
 		(property "Reference" "C10"
-			(at 54.991 43.2816 0)
+			(at 129.921 43.2816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5554,7 +4394,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 54.991 45.593 0)
+			(at 129.921 45.593 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5563,7 +4403,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 53.0352 48.26 0)
+			(at 127.9652 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,7 +4412,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 44.45 0)
+			(at 127 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5581,7 +4421,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 44.45 0)
+			(at 127 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5589,7 +4429,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 52.07 44.45 0)
+			(at 127 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5598,7 +4438,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 52.07 44.45 0)
+			(at 127 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5607,7 +4447,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 52.07 44.45 0)
+			(at 127 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5616,7 +4456,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 52.07 44.45 0)
+			(at 127 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 127 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5640,32 +4489,34 @@
 		)
 	)
 	(symbol
-		(lib_id "hellen-one-common:Res")
-		(at 148.59 40.64 180)
+		(lib_id "power:GND")
+		(at 95.25 119.38 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "88e8b157-593f-4904-97ee-627dadff9ce5")
-		(property "Reference" "R17"
-			(at 143.268 38.2918 0)
+		(uuid "85766f3c-c476-44ad-b14a-ca5bb06504a3")
+		(property "Reference" "#PWR052"
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "22"
-			(at 143.51 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hellen-one-common:R0603"
-			(at 144.78 36.83 0)
+		(property "Footprint" ""
+			(at 95.25 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,7 +4525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 40.64 0)
+			(at 95.25 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5682,44 +4533,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 148.59 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 148.59 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Type" ""
-			(at 148.59 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 148.59 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vrat" ""
-			(at 148.59 40.64 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5728,15 +4543,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8de7e610-6d78-4a3f-95da-3312f7b1dd04")
-		)
-		(pin "2"
-			(uuid "2cf7bc9b-9d44-481e-b7e1-4ccef3e892c8")
+			(uuid "5473a800-4cec-4b1d-97f6-31b19e5ac66e")
 		)
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R17")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -5744,7 +4556,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 134.62 132.08 270)
+		(at 205.74 132.08 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5752,8 +4564,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f419c94-9c21-46bc-a9d6-d31ff121b1fe")
-		(property "Reference" "F6"
-			(at 134.62 129.54 90)
+		(property "Reference" "F8"
+			(at 205.74 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5761,7 +4573,7 @@
 			)
 		)
 		(property "Value" "50mA"
-			(at 134.62 134.62 90)
+			(at 205.74 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5769,7 +4581,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 129.54 130.81 0)
+			(at 200.66 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5779,7 +4591,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 132.08 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5788,7 +4600,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 132.08 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5797,7 +4609,7 @@
 			)
 		)
 		(property "LCSC" "C369141"
-			(at 134.62 132.08 90)
+			(at 205.74 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5806,7 +4618,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 134.62 132.08 90)
+			(at 205.74 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,7 +4627,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 134.62 132.08 90)
+			(at 205.74 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5824,7 +4636,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 134.62 132.08 90)
+			(at 205.74 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 205.74 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,329 +4662,7 @@
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "F6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:Res")
-		(at 181.61 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0b2ee30-a554-430b-9df6-b0a0ea4de09e")
-		(property "Reference" "R21"
-			(at 187.0104 50.6953 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 186.69 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 185.42 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17888"
-			(at 181.61 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Type" ""
-			(at 181.61 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 181.61 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vrat" ""
-			(at 181.61 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ee1d73c-d59b-4a48-89c8-4bf6d0bdeaf6")
-		)
-		(pin "2"
-			(uuid "3f957cbc-cad7-4c83-88a1-1f2963102a61")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:Res")
-		(at 138.43 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a18b669b-3717-4706-a462-23034ab13b1a")
-		(property "Reference" "R15"
-			(at 143.8304 93.8753 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 143.51 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 142.24 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17888"
-			(at 138.43 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Type" ""
-			(at 138.43 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 138.43 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vrat" ""
-			(at 138.43 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47e7b8b7-824d-49d6-921c-41f5771fb3bb")
-		)
-		(pin "2"
-			(uuid "cfb1f3c2-daa1-4772-b957-de929d5c6400")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NIGBT_GCE")
-		(at 153.67 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "a952d20c-a9f6-4ed1-9ed0-50db5783e8d7")
-		(property "Reference" "Q2"
-			(at 158.5214 69.9516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ISL9V3040D3ST"
-			(at 158.5214 72.263 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 158.75 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 153.67 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MyComment" "DNP"
-			(at 160.02 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Type" ""
-			(at 153.67 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 153.67 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vrat" ""
-			(at 153.67 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9677bfe5-70d9-4699-a980-03064ccebb86")
-		)
-		(pin "2"
-			(uuid "a2efaa0e-1ff2-4819-b867-08816eb376cf")
-		)
-		(pin "3"
-			(uuid "27d35dd5-bb34-4cdf-ab1a-11421218fa40")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "Q2")
+					(reference "F8")
 					(unit 1)
 				)
 			)
@@ -6171,16 +4670,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 50.8 0)
+		(at 64.77 119.38 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "aa2de641-62a2-4985-be77-821ed0d59d74")
-		(property "Reference" "#PWR052"
-			(at 52.07 57.15 0)
+		(uuid "988115fa-a0a1-4d1d-90d1-14f3766f9bc6")
+		(property "Reference" "#PWR048"
+			(at 64.77 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6189,7 +4688,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 54.61 0)
+			(at 64.77 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6197,7 +4696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 50.8 0)
+			(at 64.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6206,7 +4705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 50.8 0)
+			(at 64.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6215,7 +4714,186 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 50.8 0)
+			(at 64.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23e35c7c-b6c4-45f7-99be-4faad751d95e")
+		)
+		(instances
+			(project "trove8"
+				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hellen-one-common:Res")
+		(at 80.01 119.38 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a53d024a-5c9d-470d-b8f2-7534b764654d")
+		(property "Reference" "R9"
+			(at 82.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 80.01 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 76.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 80.01 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 80.01 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 80.01 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vrat" ""
+			(at 80.01 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 80.01 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9059607c-f5de-4d43-a9ae-a4005a2bcf9c")
+		)
+		(pin "2"
+			(uuid "afddc043-3235-41f6-926c-c652e4ec43e9")
+		)
+		(instances
+			(project "trove8"
+				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa2de641-62a2-4985-be77-821ed0d59d74")
+		(property "Reference" "#PWR054"
+			(at 127 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6229,411 +4907,7 @@
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:Res")
-		(at 148.59 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab214262-14e9-42c7-a0e9-88123b6c51e6")
-		(property "Reference" "R19"
-			(at 143.268 99.2518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 143.51 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hellen-one-common:R0603"
-			(at 144.78 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 148.59 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Type" ""
-			(at 148.59 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 148.59 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vrat" ""
-			(at 148.59 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "24dcbe86-ca00-4b91-ac33-029ad5ae4d77")
-		)
-		(pin "2"
-			(uuid "7293cce6-7b08-47ec-abaf-346c0cef2b16")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:Res")
-		(at 181.61 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "acef154e-7d54-44f7-a3b2-c8b534203365")
-		(property "Reference" "R23"
-			(at 187.0104 111.6553 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 186.69 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 185.42 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17888"
-			(at 181.61 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Type" ""
-			(at 181.61 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 181.61 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vrat" ""
-			(at 181.61 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63d6478c-f762-460f-9dfc-6fb17e9cc8dc")
-		)
-		(pin "2"
-			(uuid "a36283f6-f211-4589-a5d4-05bfe33d5c88")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 199.39 67.31 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad7f73a2-03b8-4554-9884-158e2cb50ad0")
-		(property "Reference" "#PWR059"
-			(at 199.39 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 199.39 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3389dd6f-4620-485c-b674-a2897e1b5563")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 156.21 48.26 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b0deea7f-524d-4e63-abf3-884b726a5883")
-		(property "Reference" "#PWR055"
-			(at 156.21 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c27c520-bdd8-4c5d-8949-854ebd183a18")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 156.21 110.49 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b580cf2d-7b27-43e7-8eb6-f7488e8b9802")
-		(property "Reference" "#PWR057"
-			(at 156.21 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "facc38b5-cd20-430b-8194-f39dba4c984e")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "#PWR057")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -6641,7 +4915,7 @@
 	)
 	(symbol
 		(lib_id "Components:SN74LVC4245APWR")
-		(at 66.04 80.01 0)
+		(at 140.97 80.01 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6649,8 +4923,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6af5db1-71a5-4d96-8932-574c45a1bcaf")
-		(property "Reference" "U5"
-			(at 63.8967 107.95 0)
+		(property "Reference" "U7"
+			(at 138.8267 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6659,7 +4933,7 @@
 			)
 		)
 		(property "Value" "SN74LVC4245APWR"
-			(at 63.8967 110.49 0)
+			(at 138.8267 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6668,7 +4942,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
-			(at 45.72 104.14 0)
+			(at 120.65 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6677,7 +4951,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc4245a.pdf"
-			(at 66.04 115.57 0)
+			(at 140.97 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6686,7 +4960,7 @@
 			)
 		)
 		(property "Description" "8-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs"
-			(at 66.04 80.01 0)
+			(at 140.97 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6695,7 +4969,7 @@
 			)
 		)
 		(property "LCSC" "C7859"
-			(at 66.04 80.01 0)
+			(at 140.97 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6704,7 +4978,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 66.04 80.01 0)
+			(at 140.97 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6713,7 +4987,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 66.04 80.01 0)
+			(at 140.97 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6722,7 +4996,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 66.04 80.01 0)
+			(at 140.97 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 140.97 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6805,7 +5088,7 @@
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "U5")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -6813,15 +5096,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 97.79 72.39 90)
+		(at 172.72 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b9065e0a-5729-43ae-850c-b6619c0ba5b1")
-		(property "Reference" "R10"
-			(at 97.79 70.104 90)
+		(property "Reference" "R18"
+			(at 172.72 70.104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6829,7 +5112,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 97.79 74.676 90)
+			(at 172.72 74.676 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6837,7 +5120,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 97.79 74.168 90)
+			(at 172.72 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6846,7 +5129,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 72.39 0)
+			(at 172.72 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6855,7 +5138,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 97.79 72.39 0)
+			(at 172.72 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6864,7 +5147,7 @@
 			)
 		)
 		(property "LCSC" "C25077"
-			(at 97.79 72.39 90)
+			(at 172.72 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6873,7 +5156,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 97.79 72.39 90)
+			(at 172.72 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6882,7 +5165,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 97.79 72.39 90)
+			(at 172.72 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6891,7 +5174,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 97.79 72.39 90)
+			(at 172.72 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 172.72 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6908,39 +5200,41 @@
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R10")
+					(reference "R18")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "hellen-one-common:Res")
-		(at 191.77 119.38 180)
+		(lib_id "power:GND")
+		(at 49.53 119.38 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ba09effb-8e1f-499d-adb9-55d64284e31a")
-		(property "Reference" "R27"
-			(at 186.448 117.0318 0)
+		(uuid "bafd5776-dcaf-4cdd-81d2-54c2889254a0")
+		(property "Reference" "#PWR046"
+			(at 49.53 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "22"
-			(at 186.69 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hellen-one-common:R0603"
-			(at 187.96 115.57 0)
+		(property "Footprint" ""
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6949,7 +5243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 119.38 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6957,44 +5251,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 191.77 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 191.77 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Type" ""
-			(at 191.77 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 191.77 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vrat" ""
-			(at 191.77 119.38 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7003,118 +5261,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ad3f6669-c97c-4745-ba47-e8208b4a7bf0")
-		)
-		(pin "2"
-			(uuid "89849cdc-d814-4919-908c-18218d878bc4")
+			(uuid "a64eb321-2057-4f8e-83b4-ced5652181cd")
 		)
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:Res")
-		(at 138.43 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba6f0e47-1bb7-4e8f-9b31-86c326db2e17")
-		(property "Reference" "R16"
-			(at 143.8304 124.3553 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 143.51 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 142.24 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17888"
-			(at 138.43 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Type" ""
-			(at 138.43 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 138.43 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vrat" ""
-			(at 138.43 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d826c7c-b817-4d57-9019-324339fd4a7c")
-		)
-		(pin "2"
-			(uuid "d32c3c4c-058b-4a0e-ba59-a027af26d54e")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R16")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -7122,7 +5274,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 80.01 44.45 0)
+		(at 154.94 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7130,7 +5282,7 @@
 		(dnp no)
 		(uuid "bd55083d-61e5-4279-9e34-db78c0062629")
 		(property "Reference" "C11"
-			(at 82.931 43.2816 0)
+			(at 157.861 43.2816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7139,7 +5291,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 82.931 45.593 0)
+			(at 157.861 45.593 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7148,7 +5300,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 80.9752 48.26 0)
+			(at 155.9052 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7157,7 +5309,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 44.45 0)
+			(at 154.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7166,7 +5318,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 44.45 0)
+			(at 154.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7174,7 +5326,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 80.01 44.45 0)
+			(at 154.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7183,7 +5335,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 80.01 44.45 0)
+			(at 154.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7192,7 +5344,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 80.01 44.45 0)
+			(at 154.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7201,7 +5353,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 80.01 44.45 0)
+			(at 154.94 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 154.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7226,16 +5387,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 52.07 0)
+		(at 72.39 119.38 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cbd5781b-acce-4011-80e2-4d2b442a7bf5")
-		(property "Reference" "#PWR054"
-			(at 80.01 58.42 0)
+		(uuid "c28c9b5f-4c83-45ab-99f7-bed27f462a01")
+		(property "Reference" "#PWR049"
+			(at 72.39 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7244,7 +5405,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 55.88 0)
+			(at 72.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7252,7 +5413,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 52.07 0)
+			(at 72.39 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7261,7 +5422,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 52.07 0)
+			(at 72.39 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7270,7 +5431,139 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 52.07 0)
+			(at 72.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "296a9441-83dd-4289-b8ee-ab0d74a7b2d3")
+		)
+		(instances
+			(project "trove8"
+				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 119.38 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c60308df-bd4d-4b15-9c7c-da11b2eae34c")
+		(property "Reference" "#PWR051"
+			(at 87.63 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "196449b3-ab1c-48e5-a604-880017046090")
+		)
+		(instances
+			(project "trove8"
+				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 52.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbd5781b-acce-4011-80e2-4d2b442a7bf5")
+		(property "Reference" "#PWR056"
+			(at 154.94 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7284,7 +5577,7 @@
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "#PWR054")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -7292,7 +5585,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 134.62 40.64 270)
+		(at 205.74 40.64 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7300,8 +5593,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cce5d876-3dd8-4b1b-98f0-712822cd40c4")
-		(property "Reference" "F3"
-			(at 134.62 38.1 90)
+		(property "Reference" "F2"
+			(at 205.74 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7309,7 +5602,7 @@
 			)
 		)
 		(property "Value" "50mA"
-			(at 134.62 43.18 90)
+			(at 205.74 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7317,7 +5610,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 129.54 39.37 0)
+			(at 200.66 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7327,7 +5620,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 40.64 0)
+			(at 205.74 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7336,7 +5629,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 40.64 0)
+			(at 205.74 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7345,7 +5638,7 @@
 			)
 		)
 		(property "LCSC" "C369141"
-			(at 134.62 40.64 90)
+			(at 205.74 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7354,7 +5647,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 134.62 40.64 90)
+			(at 205.74 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7363,7 +5656,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 134.62 40.64 90)
+			(at 205.74 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7372,7 +5665,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 134.62 40.64 90)
+			(at 205.74 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 205.74 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7389,7 +5691,7 @@
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "F3")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -7397,15 +5699,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 97.79 82.55 90)
+		(at 172.72 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "cda54928-2608-4c81-b7f0-f72d5e03100c")
-		(property "Reference" "R11"
-			(at 97.79 80.264 90)
+		(property "Reference" "R19"
+			(at 172.72 80.264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7413,7 +5715,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 97.79 84.836 90)
+			(at 172.72 84.836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7421,7 +5723,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 97.79 84.328 90)
+			(at 172.72 84.328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7430,7 +5732,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 82.55 0)
+			(at 172.72 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7439,7 +5741,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 97.79 82.55 0)
+			(at 172.72 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7448,7 +5750,7 @@
 			)
 		)
 		(property "LCSC" "C25077"
-			(at 97.79 82.55 90)
+			(at 172.72 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7457,7 +5759,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 97.79 82.55 90)
+			(at 172.72 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7466,7 +5768,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 97.79 82.55 90)
+			(at 172.72 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7475,7 +5777,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 97.79 82.55 90)
+			(at 172.72 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 172.72 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7492,139 +5803,7 @@
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 199.39 97.79 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d2548b32-fa8a-4b12-9317-e7a93fd91498")
-		(property "Reference" "#PWR060"
-			(at 199.39 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 199.39 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af6365ab-3133-4b4f-b9f2-9db6c8fcd34c")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 156.21 139.7 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d5452d5c-560b-45de-b454-5594482bd88e")
-		(property "Reference" "#PWR058"
-			(at 156.21 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.0606 143.871 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b03d7f10-840f-4bc1-8a59-0d358538916d")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "#PWR058")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -7632,31 +5811,32 @@
 	)
 	(symbol
 		(lib_id "hellen-one-common:Res")
-		(at 181.61 83.82 0)
+		(at 57.15 119.38 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d7d783b8-73bc-4316-b868-68e0b8c3c98f")
-		(property "Reference" "R22"
-			(at 186.69 80.772 0)
+		(uuid "d84e3be3-aaf1-4f87-ad23-83e56c320f39")
+		(property "Reference" "R6"
+			(at 59.69 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 186.69 83.82 0)
+		(property "Value" "4.7k"
+			(at 57.15 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 185.42 87.63 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 53.34 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,7 +5845,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 83.82 0)
+			(at 57.15 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7674,7 +5854,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 83.82 0)
+			(at 57.15 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7682,227 +5862,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17888"
-			(at 181.61 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Type" ""
-			(at 181.61 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 181.61 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vrat" ""
-			(at 181.61 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3cb21e78-f7d0-4c23-bad8-8618a6b5de84")
-		)
-		(pin "2"
-			(uuid "3c16d8e3-03da-4765-8545-dda5cbe4b3c8")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NIGBT_GCE")
-		(at 196.85 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "d93bae62-4072-470d-a6c2-cbcf56e3951b")
-		(property "Reference" "Q6"
-			(at 201.7014 87.7316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ISL9V3040D3ST"
-			(at 201.7014 90.043 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 201.93 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 196.85 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MyComment" "DNP"
-			(at 203.2 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Type" ""
-			(at 196.85 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 196.85 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vrat" ""
-			(at 196.85 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7481f93b-37e1-4281-a647-c93c64a4f16b")
-		)
-		(pin "2"
-			(uuid "38b9616a-09f5-496f-bdcb-e910622d6b66")
-		)
-		(pin "3"
-			(uuid "0f33d922-cc88-40e7-854c-f35419c4cc50")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:Res")
-		(at 191.77 88.9 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dfb187e5-09c7-4072-8eed-73644769b984")
-		(property "Reference" "R26"
-			(at 186.448 86.5518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 186.69 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hellen-one-common:R0603"
-			(at 187.96 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 191.77 88.9 0)
+		(property "LCSC" "C23162"
+			(at 57.15 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7911,7 +5872,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 191.77 88.9 0)
+			(at 57.15 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7920,7 +5881,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 191.77 88.9 0)
+			(at 57.15 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7929,7 +5890,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 191.77 88.9 0)
+			(at 57.15 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 57.15 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7938,15 +5908,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f7b7b40b-5a52-4a00-a803-989be102faf3")
+			(uuid "09831f0e-d472-4d17-9dee-52061c8bddca")
 		)
 		(pin "2"
-			(uuid "c313d293-fe0d-45a7-82e1-685bf72f434e")
+			(uuid "33b7834e-1a1e-41d6-b279-db1af63775e3")
 		)
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R26")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7954,7 +5924,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 134.62 101.6 270)
+		(at 205.74 96.52 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7962,8 +5932,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e394cc70-d8a7-4040-a9fe-6c15b0bbe8b0")
-		(property "Reference" "F5"
-			(at 134.62 99.06 90)
+		(property "Reference" "F6"
+			(at 205.74 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7971,7 +5941,7 @@
 			)
 		)
 		(property "Value" "50mA"
-			(at 134.62 104.14 90)
+			(at 205.74 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7979,7 +5949,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 129.54 100.33 0)
+			(at 200.66 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7989,7 +5959,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 101.6 0)
+			(at 205.74 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7998,7 +5968,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 101.6 0)
+			(at 205.74 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8007,7 +5977,7 @@
 			)
 		)
 		(property "LCSC" "C369141"
-			(at 134.62 101.6 90)
+			(at 205.74 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8016,7 +5986,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 134.62 101.6 90)
+			(at 205.74 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8025,7 +5995,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 134.62 101.6 90)
+			(at 205.74 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8034,7 +6004,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 134.62 101.6 90)
+			(at 205.74 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 205.74 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8051,7 +6030,7 @@
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "F5")
+					(reference "F6")
 					(unit 1)
 				)
 			)
@@ -8059,31 +6038,32 @@
 	)
 	(symbol
 		(lib_id "hellen-one-common:Res")
-		(at 138.43 35.56 0)
+		(at 95.25 119.38 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ea1b314e-448a-47f2-bfab-1a5acd974e5b")
-		(property "Reference" "R13"
-			(at 143.8304 32.9153 0)
+		(uuid "e751c49c-ae3b-455b-970f-ed526a8bebf2")
+		(property "Reference" "R11"
+			(at 97.79 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 143.51 35.56 0)
+		(property "Value" "4.7k"
+			(at 95.25 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 142.24 39.37 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 91.44 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8092,7 +6072,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 35.56 0)
+			(at 95.25 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8101,7 +6081,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 35.56 0)
+			(at 95.25 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8109,8 +6089,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17888"
-			(at 138.43 35.56 0)
+		(property "LCSC" "C23162"
+			(at 95.25 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8119,7 +6099,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 138.43 35.56 0)
+			(at 95.25 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8128,7 +6108,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 138.43 35.56 0)
+			(at 95.25 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8137,7 +6117,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 138.43 35.56 0)
+			(at 95.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 95.25 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8146,56 +6135,48 @@
 			)
 		)
 		(pin "1"
-			(uuid "99cbe365-6559-4089-9c12-beb11a02fd5d")
+			(uuid "6cb4a83e-81bf-41d1-8833-b78118fcf52f")
 		)
 		(pin "2"
-			(uuid "4ddc07c6-50a8-4a57-b0b0-5a307aba64b5")
+			(uuid "acd076b2-bfaa-484f-ab6c-fd7aa2f3c852")
 		)
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 97.79 92.71 90)
+		(lib_id "hellen-one-common:Res")
+		(at 87.63 119.38 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "efe38328-854b-4c31-89f0-eee4f61e18d4")
-		(property "Reference" "R12"
-			(at 97.79 90.424 90)
+		(uuid "ec09a590-8279-4a58-a158-89651f6c14db")
+		(property "Reference" "R10"
+			(at 90.17 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10"
-			(at 97.79 94.996 90)
+		(property "Value" "4.7k"
+			(at 87.63 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 97.79 94.488 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 92.71 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 83.82 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8203,8 +6184,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 97.79 92.71 0)
+		(property "Datasheet" ""
+			(at 87.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8212,8 +6193,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25077"
-			(at 97.79 92.71 90)
+		(property "Description" ""
+			(at 87.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 87.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8222,7 +6212,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 97.79 92.71 90)
+			(at 87.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8231,7 +6221,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 97.79 92.71 90)
+			(at 87.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8240,7 +6230,241 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 97.79 92.71 90)
+			(at 87.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 87.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc0dfddc-66e7-4e91-9388-a65b66b4edd6")
+		)
+		(pin "2"
+			(uuid "eadad559-1356-4bc4-b60a-15f7a909f5a0")
+		)
+		(instances
+			(project "trove8"
+				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hellen-one-common:Res")
+		(at 72.39 119.38 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed8714a5-95b5-4209-9488-468c7bafe068")
+		(property "Reference" "R8"
+			(at 74.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 72.39 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 68.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 72.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 72.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 72.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vrat" ""
+			(at 72.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 72.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "705c100c-6997-4112-a81d-d6c0fdbe4fd3")
+		)
+		(pin "2"
+			(uuid "b45320dc-8a4d-48de-b0b8-e80164261731")
+		)
+		(instances
+			(project "trove8"
+				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 172.72 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efe38328-854b-4c31-89f0-eee4f61e18d4")
+		(property "Reference" "R20"
+			(at 172.72 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 172.72 94.996 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 172.72 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25077"
+			(at 172.72 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 172.72 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 172.72 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vrat" ""
+			(at 172.72 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 172.72 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8257,110 +6481,7 @@
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:Res")
-		(at 181.61 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f2241917-d043-4fa7-8ad5-2a37199eb156")
-		(property "Reference" "R24"
-			(at 187.0104 142.1353 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 186.69 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 185.42 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17888"
-			(at 181.61 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Type" ""
-			(at 181.61 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 181.61 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vrat" ""
-			(at 181.61 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "547035f4-e8d0-4a6b-8891-5678517800b8")
-		)
-		(pin "2"
-			(uuid "532fe0c9-58a2-4f2c-b023-85a986aea26a")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R24")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -8368,15 +6489,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 97.79 62.23 90)
+		(at 172.72 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f92722bd-2b5b-44b1-8cd8-7eba5cd3d986")
-		(property "Reference" "R9"
-			(at 97.79 59.944 90)
+		(property "Reference" "R17"
+			(at 172.72 59.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8384,7 +6505,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 97.79 64.516 90)
+			(at 172.72 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8392,7 +6513,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 97.79 64.008 90)
+			(at 172.72 64.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8401,7 +6522,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 62.23 0)
+			(at 172.72 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8410,7 +6531,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 97.79 62.23 0)
+			(at 172.72 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8419,7 +6540,7 @@
 			)
 		)
 		(property "LCSC" "C25077"
-			(at 97.79 62.23 90)
+			(at 172.72 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8428,7 +6549,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 97.79 62.23 90)
+			(at 172.72 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,7 +6558,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 97.79 62.23 90)
+			(at 172.72 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8446,7 +6567,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 97.79 62.23 90)
+			(at 172.72 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 172.72 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8463,7 +6593,7 @@
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "R9")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -8471,7 +6601,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 177.8 119.38 270)
+		(at 205.74 114.3 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8479,8 +6609,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd4d96da-ebf7-471c-a7b1-6d6c11aa07ad")
-		(property "Reference" "F9"
-			(at 177.8 116.84 90)
+		(property "Reference" "F7"
+			(at 205.74 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8488,7 +6618,7 @@
 			)
 		)
 		(property "Value" "50mA"
-			(at 177.8 121.92 90)
+			(at 205.74 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8496,7 +6626,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 172.72 118.11 0)
+			(at 200.66 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8506,7 +6636,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 119.38 0)
+			(at 205.74 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8515,7 +6645,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 119.38 0)
+			(at 205.74 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8524,7 +6654,7 @@
 			)
 		)
 		(property "LCSC" "C369141"
-			(at 177.8 119.38 90)
+			(at 205.74 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8533,7 +6663,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 177.8 119.38 90)
+			(at 205.74 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8542,7 +6672,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 177.8 119.38 90)
+			(at 205.74 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8551,7 +6681,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 177.8 119.38 90)
+			(at 205.74 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 205.74 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8568,7 +6707,7 @@
 		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/07aca9f8-3451-48cc-88d5-757f6e0d200f"
-					(reference "F9")
+					(reference "F7")
 					(unit 1)
 				)
 			)

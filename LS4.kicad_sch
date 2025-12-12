@@ -438,96 +438,60 @@
 		)
 	)
 	(junction
-		(at 170.18 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "093c70de-fceb-4ee3-8306-a5bff17fd740")
-	)
-	(junction
-		(at 195.58 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4585f93c-821f-45b4-b707-92a35c105ed4")
-	)
-	(junction
-		(at 170.18 59.69)
+		(at 123.19 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d4a5730-b5d6-4b77-8c09-348cb3e63806")
 	)
 	(junction
-		(at 170.18 86.36)
+		(at 123.19 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70fe0900-d45f-4be6-874b-9b283197971e")
 	)
 	(junction
-		(at 124.46 88.9)
+		(at 168.91 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "addb489a-77cc-4de2-beb0-3f37e131f1b9")
 	)
 	(junction
-		(at 124.46 62.23)
+		(at 168.91 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4110f5f-aabe-47fd-81c2-246a90e3457a")
 	)
 	(junction
-		(at 195.58 54.61)
+		(at 97.79 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de55f0bf-e506-4abd-9e5a-6302e3e59fdd")
 	)
 	(junction
-		(at 195.58 81.28)
+		(at 97.79 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee1d710f-8ddd-4126-9716-9efe6ea4bc7e")
 	)
-	(junction
-		(at 124.46 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f853866f-bf57-451f-9d0e-8b85507e26f3")
-	)
 	(no_connect
-		(at 154.94 119.38)
-		(uuid "4cc37812-ff1c-492e-a579-7d7b127560c9")
-	)
-	(no_connect
-		(at 154.94 62.23)
+		(at 138.43 76.2)
 		(uuid "5618d2df-fddd-4fac-b7f8-dadfbe331682")
 	)
 	(no_connect
-		(at 154.94 88.9)
+		(at 138.43 102.87)
 		(uuid "5f6dd7ae-7ca2-4f48-8047-b6123bb46c19")
 	)
 	(no_connect
-		(at 154.94 83.82)
+		(at 138.43 97.79)
 		(uuid "70f4e2ab-0b53-4c61-a8f3-5ffde162df9f")
 	)
 	(no_connect
-		(at 154.94 114.3)
-		(uuid "b1c54968-b9ee-46ed-8f2a-82783ca6bf21")
-	)
-	(no_connect
-		(at 154.94 57.15)
+		(at 138.43 71.12)
 		(uuid "ea4dcc50-b820-46d5-8862-77381c41de6b")
 	)
 	(wire
 		(pts
-			(xy 124.46 119.38) (xy 127 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b1e4dbd-85bb-4324-b468-f214a3adda11")
-	)
-	(wire
-		(pts
-			(xy 124.46 83.82) (xy 127 83.82)
+			(xy 168.91 97.79) (xy 166.37 97.79)
 		)
 		(stroke
 			(width 0)
@@ -537,7 +501,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 54.61) (xy 195.58 54.61)
+			(xy 138.43 68.58) (xy 97.79 68.58)
 		)
 		(stroke
 			(width 0)
@@ -547,7 +511,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 88.9) (xy 124.46 83.82)
+			(xy 168.91 102.87) (xy 168.91 97.79)
 		)
 		(stroke
 			(width 0)
@@ -557,7 +521,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 54.61) (xy 208.28 54.61)
+			(xy 97.79 68.58) (xy 85.09 68.58)
 		)
 		(stroke
 			(width 0)
@@ -567,37 +531,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 114.3) (xy 127 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41ab3b9e-582c-4679-976c-ac2c87c84ef2")
-	)
-	(wire
-		(pts
-			(xy 154.94 116.84) (xy 170.18 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41c64f1a-b933-4b2f-98af-993dde138f1f")
-	)
-	(wire
-		(pts
-			(xy 170.18 116.84) (xy 182.88 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4413b82c-a8ad-4ae5-98a5-6bf6685b6094")
-	)
-	(wire
-		(pts
-			(xy 195.58 81.28) (xy 208.28 81.28)
+			(xy 97.79 95.25) (xy 85.09 95.25)
 		)
 		(stroke
 			(width 0)
@@ -607,7 +541,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 57.15) (xy 127 57.15)
+			(xy 168.91 71.12) (xy 166.37 71.12)
 		)
 		(stroke
 			(width 0)
@@ -617,7 +551,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 86.36) (xy 170.18 86.36)
+			(xy 138.43 100.33) (xy 123.19 100.33)
 		)
 		(stroke
 			(width 0)
@@ -627,7 +561,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 91.44) (xy 124.46 88.9)
+			(xy 168.91 105.41) (xy 168.91 102.87)
 		)
 		(stroke
 			(width 0)
@@ -637,27 +571,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 116.84) (xy 127 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65d57530-6ea5-4f66-b7e9-effd1095a0a9")
-	)
-	(wire
-		(pts
-			(xy 154.94 111.76) (xy 195.58 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72ecd77e-ad32-4d0c-94c0-5190d996c7ac")
-	)
-	(wire
-		(pts
-			(xy 90.17 54.61) (xy 127 54.61)
+			(xy 203.2 68.58) (xy 166.37 68.58)
 		)
 		(stroke
 			(width 0)
@@ -667,7 +581,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 88.9) (xy 127 88.9)
+			(xy 168.91 102.87) (xy 166.37 102.87)
 		)
 		(stroke
 			(width 0)
@@ -677,7 +591,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 62.23) (xy 124.46 57.15)
+			(xy 168.91 76.2) (xy 168.91 71.12)
 		)
 		(stroke
 			(width 0)
@@ -687,17 +601,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 111.76) (xy 127 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96ac66d1-27b8-4636-b745-32c4db2dec2d")
-	)
-	(wire
-		(pts
-			(xy 154.94 81.28) (xy 195.58 81.28)
+			(xy 138.43 95.25) (xy 97.79 95.25)
 		)
 		(stroke
 			(width 0)
@@ -707,7 +611,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 59.69) (xy 182.88 59.69)
+			(xy 123.19 73.66) (xy 110.49 73.66)
 		)
 		(stroke
 			(width 0)
@@ -717,27 +621,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 111.76) (xy 208.28 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5b581fd-8a4e-4213-9d02-47cff258ab00")
-	)
-	(wire
-		(pts
-			(xy 124.46 119.38) (xy 124.46 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9e3ebef-00be-4efb-b17a-dc4ed11203e7")
-	)
-	(wire
-		(pts
-			(xy 170.18 86.36) (xy 182.88 86.36)
+			(xy 123.19 100.33) (xy 110.49 100.33)
 		)
 		(stroke
 			(width 0)
@@ -747,7 +631,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 86.36) (xy 127 86.36)
+			(xy 203.2 100.33) (xy 166.37 100.33)
 		)
 		(stroke
 			(width 0)
@@ -757,7 +641,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 59.69) (xy 127 59.69)
+			(xy 203.2 73.66) (xy 166.37 73.66)
 		)
 		(stroke
 			(width 0)
@@ -767,7 +651,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 81.28) (xy 127 81.28)
+			(xy 203.2 95.25) (xy 166.37 95.25)
 		)
 		(stroke
 			(width 0)
@@ -777,7 +661,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 62.23) (xy 127 62.23)
+			(xy 168.91 76.2) (xy 166.37 76.2)
 		)
 		(stroke
 			(width 0)
@@ -787,7 +671,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 64.77) (xy 124.46 62.23)
+			(xy 168.91 78.74) (xy 168.91 76.2)
 		)
 		(stroke
 			(width 0)
@@ -797,7 +681,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 59.69) (xy 170.18 59.69)
+			(xy 138.43 73.66) (xy 123.19 73.66)
 		)
 		(stroke
 			(width 0)
@@ -805,229 +689,106 @@
 		)
 		(uuid "f23ba6cf-334c-4be5-9839-27da0e8678f1")
 	)
-	(wire
-		(pts
-			(xy 124.46 121.92) (xy 124.46 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdbbabbc-6e8d-4a10-ae0f-d0004ff36f2c")
-	)
-	(hierarchical_label "IN5"
-		(shape input)
-		(at 208.28 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0ba300f6-4e47-4b3c-97be-bf8b48f7ca10")
-	)
 	(hierarchical_label "IN1"
 		(shape input)
-		(at 208.28 54.61 0)
+		(at 85.09 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "253ff18b-b53d-4967-93b4-0c1602199368")
 	)
-	(hierarchical_label "IN6"
-		(shape input)
-		(at 182.88 116.84 0)
+	(hierarchical_label "OUT4"
+		(shape output)
+		(at 203.2 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
-		)
-		(uuid "2ed00966-b113-4832-95ef-afc819a47cf0")
-	)
-	(hierarchical_label "OUT5"
-		(shape output)
-		(at 90.17 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4f95645f-8bca-4e7b-ab45-d519650ef335")
-	)
-	(hierarchical_label "OUT4"
-		(shape output)
-		(at 90.17 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
 		)
 		(uuid "75d9e8d2-35e4-472a-be1f-1e19850caef9")
 	)
 	(hierarchical_label "OUT3"
 		(shape output)
-		(at 90.17 81.28 180)
+		(at 203.2 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "779707ed-9d20-4460-92f0-b30551188fad")
 	)
 	(hierarchical_label "OUT2"
 		(shape output)
-		(at 90.17 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7e31eff4-b317-4793-a5ca-166067d14411")
-	)
-	(hierarchical_label "OUT6"
-		(shape output)
-		(at 90.17 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a5f6b7f3-ecd6-4887-bbbd-64c2550ec52c")
-	)
-	(hierarchical_label "IN2"
-		(shape input)
-		(at 182.88 59.69 0)
+		(at 203.2 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
+		)
+		(uuid "7e31eff4-b317-4793-a5ca-166067d14411")
+	)
+	(hierarchical_label "IN2"
+		(shape input)
+		(at 110.49 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "b6943a88-08bd-4248-a944-f8e7bb243e11")
 	)
 	(hierarchical_label "IN3"
 		(shape input)
-		(at 208.28 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b9d73c61-2eca-471e-a28b-4b5d6b3a1ae9")
-	)
-	(hierarchical_label "OUT1"
-		(shape output)
-		(at 90.17 54.61 180)
+		(at 85.09 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "d0038f61-e749-4344-9c19-33e7cad40f8f")
+		(uuid "b9d73c61-2eca-471e-a28b-4b5d6b3a1ae9")
 	)
-	(hierarchical_label "IN4"
-		(shape input)
-		(at 182.88 86.36 0)
+	(hierarchical_label "OUT1"
+		(shape output)
+		(at 203.2 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
+		(uuid "d0038f61-e749-4344-9c19-33e7cad40f8f")
+	)
+	(hierarchical_label "IN4"
+		(shape input)
+		(at 110.49 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
 		(uuid "f72cff0c-8b80-4441-9b5b-b918bb189225")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 124.46 121.92 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "14d58ade-da5e-47b6-a676-89d34d9c7c6c")
-		(property "Reference" "#PWR089"
-			(at 124.46 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7f3c2d0-d8f9-429a-b891-165a4e234bce")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/312ad51c-af5c-49bc-8f39-ecd4a8af0bbc"
-					(reference "#PWR089")
-					(unit 1)
-				)
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/5e911321-eff3-4f4b-ab2b-3e3a5937465d"
-					(reference "#PWR092")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "hellen-one-common:Res")
-		(at 195.58 64.77 90)
+		(at 97.79 78.74 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "20067a66-836b-402a-89d1-4b65b1e4d190")
-		(property "Reference" "R39"
-			(at 193.04 59.69 0)
+		(property "Reference" "R29"
+			(at 100.33 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1035,15 +796,15 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 195.58 59.69 0)
+			(at 97.79 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "hellen-one-common:R0603"
-			(at 199.39 60.96 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 93.98 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1052,7 +813,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 64.77 0)
+			(at 97.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1061,7 +822,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 64.77 0)
+			(at 97.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1070,7 +831,7 @@
 			)
 		)
 		(property "LCSC" "C23162"
-			(at 195.58 64.77 0)
+			(at 97.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1079,7 +840,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 195.58 64.77 0)
+			(at 97.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1088,7 +849,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 195.58 64.77 0)
+			(at 97.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1097,7 +858,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 195.58 64.77 0)
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 97.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1112,13 +882,9 @@
 			(uuid "6a93bbc3-b5a7-4f07-b9bd-238bb61c6063")
 		)
 		(instances
-			(project ""
+			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/312ad51c-af5c-49bc-8f39-ecd4a8af0bbc"
-					(reference "R39")
-					(unit 1)
-				)
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/5e911321-eff3-4f4b-ab2b-3e3a5937465d"
-					(reference "R43")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -1126,15 +892,16 @@
 	)
 	(symbol
 		(lib_id "hellen-one-common:Res")
-		(at 195.58 91.44 90)
+		(at 97.79 105.41 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2e374842-b6e3-496f-a78a-2e5dbd03287d")
-		(property "Reference" "R40"
-			(at 193.04 86.36 0)
+		(property "Reference" "R30"
+			(at 100.33 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1142,15 +909,15 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 195.58 86.36 0)
+			(at 97.79 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "hellen-one-common:R0603"
-			(at 199.39 87.63 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 93.98 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1159,7 +926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 91.44 0)
+			(at 97.79 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1168,7 +935,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 91.44 0)
+			(at 97.79 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1177,7 +944,7 @@
 			)
 		)
 		(property "LCSC" "C23162"
-			(at 195.58 91.44 0)
+			(at 97.79 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,7 +953,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 195.58 91.44 0)
+			(at 97.79 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1195,7 +962,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 195.58 91.44 0)
+			(at 97.79 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1204,7 +971,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 195.58 91.44 0)
+			(at 97.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 97.79 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,13 +995,9 @@
 			(uuid "92b5c245-adb0-47dc-b0fb-ebcfd6dc4bc3")
 		)
 		(instances
-			(project ""
+			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/312ad51c-af5c-49bc-8f39-ecd4a8af0bbc"
-					(reference "R40")
-					(unit 1)
-				)
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/5e911321-eff3-4f4b-ab2b-3e3a5937465d"
-					(reference "R44")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -1233,16 +1005,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 64.77 0)
-		(mirror y)
+		(at 168.91 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3dde550b-c728-4fbd-86cc-84a6abfb4ee6")
-		(property "Reference" "#PWR075"
-			(at 124.46 71.12 0)
+		(property "Reference" "#PWR073"
+			(at 168.91 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1251,7 +1022,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 68.58 0)
+			(at 168.91 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1259,7 +1030,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 64.77 0)
+			(at 168.91 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1268,7 +1039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 64.77 0)
+			(at 168.91 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1277,7 +1048,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 64.77 0)
+			(at 168.91 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1289,13 +1060,9 @@
 			(uuid "836f1459-45e9-4ef7-b083-123d2ed1758d")
 		)
 		(instances
-			(project ""
+			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/312ad51c-af5c-49bc-8f39-ecd4a8af0bbc"
-					(reference "#PWR075")
-					(unit 1)
-				)
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/5e911321-eff3-4f4b-ab2b-3e3a5937465d"
-					(reference "#PWR081")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -1303,16 +1070,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 91.44 0)
-		(mirror y)
+		(at 97.79 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3f0105dc-d143-46e0-97e8-3c3f0ee31676")
-		(property "Reference" "#PWR080"
-			(at 195.58 97.79 0)
+		(property "Reference" "#PWR070"
+			(at 97.79 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1321,7 +1087,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 95.25 0)
+			(at 97.79 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1329,7 +1095,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 91.44 0)
+			(at 97.79 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1338,7 +1104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 91.44 0)
+			(at 97.79 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,7 +1113,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 91.44 0)
+			(at 97.79 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1359,13 +1125,9 @@
 			(uuid "2fa7255c-229d-4a3a-b1c1-365217392af4")
 		)
 		(instances
-			(project ""
+			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/312ad51c-af5c-49bc-8f39-ecd4a8af0bbc"
-					(reference "#PWR080")
-					(unit 1)
-				)
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/5e911321-eff3-4f4b-ab2b-3e3a5937465d"
-					(reference "#PWR086")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -1373,16 +1135,15 @@
 	)
 	(symbol
 		(lib_id "chips:VNLD5160")
-		(at 154.94 81.28 0)
-		(mirror y)
+		(at 138.43 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "54b47e04-0442-472d-9811-0033f41bf6e0")
-		(property "Reference" "U11"
-			(at 140.97 73.66 0)
+		(property "Reference" "U13"
+			(at 152.4 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1390,7 +1151,7 @@
 			)
 		)
 		(property "Value" "VNLD5160TR-E"
-			(at 140.97 76.2 0)
+			(at 152.4 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1398,7 +1159,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 140.97 85.09 0)
+			(at 152.4 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1407,7 +1168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 81.28 0)
+			(at 138.43 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1416,7 +1177,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 81.28 0)
+			(at 138.43 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1425,7 +1186,7 @@
 			)
 		)
 		(property "LCSC" "C377942"
-			(at 143.51 83.82 0)
+			(at 149.86 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1434,7 +1195,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 154.94 81.28 0)
+			(at 138.43 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1443,7 +1204,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 154.94 81.28 0)
+			(at 138.43 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1452,7 +1213,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 154.94 81.28 0)
+			(at 138.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 138.43 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1485,12 +1255,8 @@
 			(uuid "5052151a-b5f1-4656-b429-55759dc0a3fb")
 		)
 		(instances
-			(project ""
+			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/312ad51c-af5c-49bc-8f39-ecd4a8af0bbc"
-					(reference "U11")
-					(unit 1)
-				)
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/5e911321-eff3-4f4b-ab2b-3e3a5937465d"
 					(reference "U13")
 					(unit 1)
 				)
@@ -1499,16 +1265,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 91.44 0)
-		(mirror y)
+		(at 168.91 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "551ee774-7f96-4ad0-9c91-e0dc8808560f")
-		(property "Reference" "#PWR076"
-			(at 124.46 97.79 0)
+		(property "Reference" "#PWR074"
+			(at 168.91 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1517,7 +1282,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 95.25 0)
+			(at 168.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1525,7 +1290,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 91.44 0)
+			(at 168.91 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1534,7 +1299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 91.44 0)
+			(at 168.91 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1543,7 +1308,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 91.44 0)
+			(at 168.91 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,139 +1320,9 @@
 			(uuid "5f4cc0b0-0a49-4fbb-86c6-559c350c7f14")
 		)
 		(instances
-			(project ""
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/312ad51c-af5c-49bc-8f39-ecd4a8af0bbc"
-					(reference "#PWR076")
-					(unit 1)
-				)
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/5e911321-eff3-4f4b-ab2b-3e3a5937465d"
-					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "chips:VNLD5160")
-		(at 154.94 111.76 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "57396b0c-b05f-477f-8cca-1e81361855c1")
-		(property "Reference" "U14"
-			(at 140.97 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VNLD5160TR-E"
-			(at 140.97 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 140.97 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C377942"
-			(at 143.51 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Type" ""
-			(at 154.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 154.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vrat" ""
-			(at 154.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f4b34c1-9d1d-4e01-b72e-2800abec069c")
-		)
-		(pin "2"
-			(uuid "ad0d1e43-b74b-4734-b441-069b71f745f0")
-		)
-		(pin "3"
-			(uuid "f3e2810f-b568-41ad-97e9-b4f07e00b7d5")
-		)
-		(pin "4"
-			(uuid "265574d7-5201-46db-acde-5f12bd440897")
-		)
-		(pin "5"
-			(uuid "96604db8-7bd4-470d-885e-2caa35515d1a")
-		)
-		(pin "6"
-			(uuid "8d2b65bb-4494-4c31-8467-075d2a024fe8")
-		)
-		(pin "7"
-			(uuid "64fc4ed5-cc9c-4ea8-8366-c9a4c03f157b")
-		)
-		(pin "8"
-			(uuid "8deb9a6e-7f8f-466f-85f2-3c6de0536bf1")
-		)
-		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/312ad51c-af5c-49bc-8f39-ecd4a8af0bbc"
-					(reference "U14")
-					(unit 1)
-				)
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/5e911321-eff3-4f4b-ab2b-3e3a5937465d"
-					(reference "U15")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -1695,86 +1330,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 121.92 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b66672d-84e1-416e-ae8a-db7d03e193f7")
-		(property "Reference" "#PWR091"
-			(at 195.58 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 195.58 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a9d37cd-f5c1-48ef-80cb-a5446ad01483")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/312ad51c-af5c-49bc-8f39-ecd4a8af0bbc"
-					(reference "#PWR091")
-					(unit 1)
-				)
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/5e911321-eff3-4f4b-ab2b-3e3a5937465d"
-					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 170.18 69.85 0)
-		(mirror y)
+		(at 123.19 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6432558e-abe2-401a-8c6d-09dc1c516615")
-		(property "Reference" "#PWR077"
-			(at 170.18 76.2 0)
+		(property "Reference" "#PWR071"
+			(at 123.19 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,7 +1347,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 73.66 0)
+			(at 123.19 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1791,7 +1355,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 69.85 0)
+			(at 123.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1800,7 +1364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 69.85 0)
+			(at 123.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,7 +1373,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 69.85 0)
+			(at 123.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1821,13 +1385,9 @@
 			(uuid "c2d96549-2d80-4a50-bfb4-1e510c81fbb4")
 		)
 		(instances
-			(project ""
+			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/312ad51c-af5c-49bc-8f39-ecd4a8af0bbc"
-					(reference "#PWR077")
-					(unit 1)
-				)
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/5e911321-eff3-4f4b-ab2b-3e3a5937465d"
-					(reference "#PWR083")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -1835,16 +1395,15 @@
 	)
 	(symbol
 		(lib_id "chips:VNLD5160")
-		(at 154.94 54.61 0)
-		(mirror y)
+		(at 138.43 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a776ffc1-9589-4f0b-a440-e8d41acf38e5")
-		(property "Reference" "U10"
-			(at 140.97 46.99 0)
+		(property "Reference" "U12"
+			(at 152.4 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1852,7 +1411,7 @@
 			)
 		)
 		(property "Value" "VNLD5160TR-E"
-			(at 140.97 49.53 0)
+			(at 152.4 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1860,7 +1419,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 140.97 58.42 0)
+			(at 152.4 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,7 +1428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 54.61 0)
+			(at 138.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,7 +1437,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 54.61 0)
+			(at 138.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1887,7 +1446,7 @@
 			)
 		)
 		(property "LCSC" "C377942"
-			(at 143.51 57.15 0)
+			(at 149.86 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1896,7 +1455,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 154.94 54.61 0)
+			(at 138.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1905,7 +1464,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 154.94 54.61 0)
+			(at 138.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1914,7 +1473,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 154.94 54.61 0)
+			(at 138.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 138.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,12 +1515,8 @@
 			(uuid "c9840d80-22e6-49fa-b8a3-2b8eb8400a52")
 		)
 		(instances
-			(project ""
+			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/312ad51c-af5c-49bc-8f39-ecd4a8af0bbc"
-					(reference "U10")
-					(unit 1)
-				)
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/5e911321-eff3-4f4b-ab2b-3e3a5937465d"
 					(reference "U12")
 					(unit 1)
 				)
@@ -1961,86 +1525,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 127 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c08cfb56-dbaf-4ac6-a450-49e02bdcc6fb")
-		(property "Reference" "#PWR090"
-			(at 170.18 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 170.18 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4eba817-0db9-48ee-977c-79bf5fdea19a")
-		)
-		(instances
-			(project "trove8"
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/312ad51c-af5c-49bc-8f39-ecd4a8af0bbc"
-					(reference "#PWR090")
-					(unit 1)
-				)
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/5e911321-eff3-4f4b-ab2b-3e3a5937465d"
-					(reference "#PWR093")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 195.58 64.77 0)
-		(mirror y)
+		(at 97.79 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c33b628f-9220-458d-83db-2f98ad20b9ce")
-		(property "Reference" "#PWR079"
-			(at 195.58 71.12 0)
+		(property "Reference" "#PWR069"
+			(at 97.79 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2049,7 +1542,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 68.58 0)
+			(at 97.79 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2057,7 +1550,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 64.77 0)
+			(at 97.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,7 +1559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 64.77 0)
+			(at 97.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2075,7 +1568,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 64.77 0)
+			(at 97.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,120 +1580,9 @@
 			(uuid "bc36a72c-ad14-40aa-b2f3-86b258d8203a")
 		)
 		(instances
-			(project ""
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/312ad51c-af5c-49bc-8f39-ecd4a8af0bbc"
-					(reference "#PWR079")
-					(unit 1)
-				)
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/5e911321-eff3-4f4b-ab2b-3e3a5937465d"
-					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:Res")
-		(at 195.58 121.92 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e6889009-9838-4f19-abed-3c8f082fa94b")
-		(property "Reference" "R46"
-			(at 193.04 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 195.58 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hellen-one-common:R0603"
-			(at 199.39 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23162"
-			(at 195.58 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Type" ""
-			(at 195.58 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 195.58 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vrat" ""
-			(at 195.58 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9babb646-02e0-4e5c-9e75-74dcaf675264")
-		)
-		(pin "2"
-			(uuid "ce0572ed-7cdc-43fc-adc4-4b6049a30760")
-		)
-		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/312ad51c-af5c-49bc-8f39-ecd4a8af0bbc"
-					(reference "R46")
-					(unit 1)
-				)
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/5e911321-eff3-4f4b-ab2b-3e3a5937465d"
-					(reference "R48")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -2208,16 +1590,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 96.52 0)
-		(mirror y)
+		(at 123.19 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ec4d6a7a-8517-4a00-ae02-0630c7687efc")
-		(property "Reference" "#PWR078"
-			(at 170.18 102.87 0)
+		(property "Reference" "#PWR072"
+			(at 123.19 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +1607,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 100.33 0)
+			(at 123.19 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2234,7 +1615,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 96.52 0)
+			(at 123.19 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2243,7 +1624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 96.52 0)
+			(at 123.19 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2252,7 +1633,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 96.52 0)
+			(at 123.19 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2264,13 +1645,9 @@
 			(uuid "81b18e61-68ca-466a-9422-7b7daf3a3318")
 		)
 		(instances
-			(project ""
+			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/312ad51c-af5c-49bc-8f39-ecd4a8af0bbc"
-					(reference "#PWR078")
-					(unit 1)
-				)
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/5e911321-eff3-4f4b-ab2b-3e3a5937465d"
-					(reference "#PWR084")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -2278,15 +1655,16 @@
 	)
 	(symbol
 		(lib_id "hellen-one-common:Res")
-		(at 170.18 96.52 90)
+		(at 123.19 110.49 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "eec87eff-5471-42c8-aaa0-ff5c0793a9cf")
-		(property "Reference" "R38"
-			(at 167.64 91.44 0)
+		(property "Reference" "R32"
+			(at 125.73 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2294,15 +1672,15 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 170.18 91.44 0)
+			(at 123.19 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "hellen-one-common:R0603"
-			(at 173.99 92.71 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 119.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2311,7 +1689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 96.52 0)
+			(at 123.19 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2320,7 +1698,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 96.52 0)
+			(at 123.19 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,7 +1707,7 @@
 			)
 		)
 		(property "LCSC" "C23162"
-			(at 170.18 96.52 0)
+			(at 123.19 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2338,7 +1716,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 170.18 96.52 0)
+			(at 123.19 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +1725,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 170.18 96.52 0)
+			(at 123.19 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2356,7 +1734,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 170.18 96.52 0)
+			(at 123.19 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 123.19 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2371,120 +1758,9 @@
 			(uuid "ac88c684-7406-4bde-a2d3-6272eca1b1de")
 		)
 		(instances
-			(project ""
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/312ad51c-af5c-49bc-8f39-ecd4a8af0bbc"
-					(reference "R38")
-					(unit 1)
-				)
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/5e911321-eff3-4f4b-ab2b-3e3a5937465d"
-					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:Res")
-		(at 170.18 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f2698404-7e76-4c51-8a9c-83379cae5089")
-		(property "Reference" "R45"
-			(at 167.64 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 170.18 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hellen-one-common:R0603"
-			(at 173.99 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23162"
-			(at 170.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Type" ""
-			(at 170.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 170.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vrat" ""
-			(at 170.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a367c31b-5c3e-4024-bb0c-35caff5558af")
-		)
-		(pin "2"
-			(uuid "3cd22b2e-c53a-4b53-81d2-1fdacd53be3a")
-		)
-		(instances
 			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/312ad51c-af5c-49bc-8f39-ecd4a8af0bbc"
-					(reference "R45")
-					(unit 1)
-				)
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/5e911321-eff3-4f4b-ab2b-3e3a5937465d"
-					(reference "R47")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -2492,15 +1768,16 @@
 	)
 	(symbol
 		(lib_id "hellen-one-common:Res")
-		(at 170.18 69.85 90)
+		(at 123.19 83.82 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f992e9c9-4492-40b8-823b-f6fa15d06892")
-		(property "Reference" "R37"
-			(at 167.64 64.77 0)
+		(property "Reference" "R31"
+			(at 125.73 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,15 +1785,15 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 170.18 64.77 0)
+			(at 123.19 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "hellen-one-common:R0603"
-			(at 173.99 66.04 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 119.38 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,7 +1802,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 69.85 0)
+			(at 123.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +1811,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 69.85 0)
+			(at 123.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,7 +1820,7 @@
 			)
 		)
 		(property "LCSC" "C23162"
-			(at 170.18 69.85 0)
+			(at 123.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2552,7 +1829,7 @@
 			)
 		)
 		(property "LCSC Type" ""
-			(at 170.18 69.85 0)
+			(at 123.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,7 +1838,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 170.18 69.85 0)
+			(at 123.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2570,7 +1847,16 @@
 			)
 		)
 		(property "Vrat" ""
-			(at 170.18 69.85 0)
+			(at 123.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" ""
+			(at 123.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2585,13 +1871,9 @@
 			(uuid "db56632a-ac86-440c-9a9a-013359322047")
 		)
 		(instances
-			(project ""
+			(project "trove8"
 				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/312ad51c-af5c-49bc-8f39-ecd4a8af0bbc"
-					(reference "R37")
-					(unit 1)
-				)
-				(path "/6f8aae2c-1ef6-4e9a-8602-ad3b1824c455/5e911321-eff3-4f4b-ab2b-3e3a5937465d"
-					(reference "R41")
+					(reference "R31")
 					(unit 1)
 				)
 			)

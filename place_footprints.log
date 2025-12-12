@@ -1,0 +1,60 @@
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 674:Plugin executed on: 'win32'
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 675:Plugin executed with python version: '3.11.5 (main, Jun 15 2025, 06:45:45) [MSC v.1942 64 bit (AMD64)]'
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 676:KiCad build version: 9.0.4
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 677:Plugin version: 4.0.1
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 678:Frame repr: <wx._core.Frame object at 0x00000227F3011240>
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D2 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D8 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint H4 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C8 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D3 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C6 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint H2 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J1 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C7 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J3 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J2 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J4 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R4 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U3 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D6 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D5 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C2 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U4 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U1 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U6 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C5 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint H1 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint F1 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint H3 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R1 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R3 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C3 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D9 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D4 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D1 on root level
+12-09 17:19:40 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 717:Reference footprint='U22'
+12-09 17:19:42 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 94:By Sheet GUI initialized
+12-09 17:19:42 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 103:Ref fp:Footprint(ref='U22', fp=<pcbnew.FOOTPRINT; proxy of <Swig Object of type 'FOOTPRINT *' at 0x00000227AD8E44B0> >, fp_id='5DD4EE0E', sheet_id=['/Analog 1/'], filename=['analog_input.kicad_sch'])
+12-09 17:19:42 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 104:Levels:['analog_input.kicad_sch']
+12-09 17:19:42 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 106:Selecting: 1
+12-09 17:19:42 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 110:Should invoke level_changed()
+12-09 17:19:42 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 288:Level_changed() invoked
+12-09 17:19:42 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 291:self.ref_fp.sheet_id[index] = '/Analog 1/'
+12-09 17:19:42 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 292:self.ref_fp.sheet_id = ['/Analog 1/']
+12-09 17:19:42 com_github_MitjaNemec_PlaceFootprints.place_footprints 284:constructing a list of sheets suitable for replication on level:'/Analog 1/', file:'analog_input.kicad_sch'
+12-09 17:19:42 com_github_MitjaNemec_PlaceFootprints.place_footprints 308:suitable sheets are:[['/Analog 2/']]
+12-09 17:19:42 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 306:self.list_sheetsChoices: [['/Analog 2/']]
+12-09 17:19:42 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Analog 1/']
+12-09 17:19:42 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/Analog 2/']
+12-09 17:19:42 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 314:self.ref_list: ['U18']
+12-09 17:19:47 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 195:Saving config sheet
+12-09 17:19:47 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 207:Preparing config for sheet linear
+12-09 17:19:47 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 227:Saving config file
+12-09 17:19:47 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 229:Saved the config file
+12-09 17:19:47 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 746:Sheets selected: [['/Analog 2/']]
+12-09 17:19:47 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 755:Footprints to place: ['U22', 'U18']
+12-09 17:19:47 com_github_MitjaNemec_PlaceFootprints.place_footprints 396:Starting placing with linear layout
+12-09 17:19:47 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 800:Placing complete
+12-09 17:19:47 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 801:Sorted_footprints: ['U18', 'U22']

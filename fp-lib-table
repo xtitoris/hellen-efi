@@ -23,4 +23,5 @@
   (lib (name "hellen-one-common")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/kicad/footprints")(options "")(descr ""))
   (lib (name "Connector_Automotive")(type "KiCad")(uri "${KIPRJMOD}/misc/Connector_Automotive/Connector_Automotive.pretty")(options "")(descr ""))
   (lib (name "kicad6-libraries")(type "KiCad")(uri "${KIPRJMOD}/kicad6-libraries")(options "")(descr ""))
+  (lib (name "sunlord-MWSA0503")(type "KiCad")(uri "${KIPRJMOD}/misc/sunlord-MWSA0503.pretty")(options "")(descr ""))
 )
