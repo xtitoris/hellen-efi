@@ -2,16 +2,8 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "e7eb7320-1ad8-4300-b98c-12e59a54187c")
+	(uuid "901ef0b1-1af6-4b63-991e-e95db25b663a")
 	(paper "A4")
-	(title_block
-		(title "rusEfi Proteus")
-		(date "2022-04-09")
-		(rev "v0.7")
-		(company "rusEFI")
-		(comment 1 "github.com/mck1117/proteus")
-		(comment 2 "rusefi.com/s/proteus")
-	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LMV321"
 			(pin_names
@@ -1634,7 +1626,7 @@
 				)
 			)
 		)
-		(property "LCSC_ext" "Extended"
+		(property "LCSC_ext" "0"
 			(at 146.05 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -1751,7 +1743,7 @@
 				)
 			)
 		)
-		(property "LCSC_ext" "Basic"
+		(property "LCSC_ext" "0"
 			(at 168.91 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -1823,7 +1815,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 166.37 70.1548 0)
 			(hide yes)
 			(show_name no)
@@ -1855,7 +1847,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1664"
+		(property "LCSC" "C13533"
 			(at 162.56 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -1866,7 +1858,7 @@
 				)
 			)
 		)
-		(property "LCSC_ext" "Basic"
+		(property "LCSC_ext" "0"
 			(at 162.56 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2146,7 +2138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 91.44 83.5152 0)
 			(hide yes)
 			(show_name no)
@@ -2178,7 +2170,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1613"
+		(property "LCSC" "C327234"
 			(at 95.25 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2189,7 +2181,7 @@
 				)
 			)
 		)
-		(property "LCSC_ext" "Basic"
+		(property "LCSC_ext" "0"
 			(at 95.25 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2306,7 +2298,7 @@
 				)
 			)
 		)
-		(property "LCSC_ext" "Basic"
+		(property "LCSC_ext" "0"
 			(at 74.93 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -2837,55 +2829,6 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(group "Knock"
-		(uuid "610d4406-0a24-4513-a39b-b1ecc7d6a6e0")
-		(lib_id "Project.pretty:Knock")
-		(members "00000000-0000-0000-0000-00005e824a36" "00000000-0000-0000-0000-00005e8250a2"
-			"00000000-0000-0000-0000-00005e825372" "00000000-0000-0000-0000-00005e82e61e"
-			"00000000-0000-0000-0000-00005e82eab1" "00000000-0000-0000-0000-00005e82ed69"
-			"00000000-0000-0000-0000-00005f0e89ba" "00000000-0000-0000-0000-00005f0e9971"
-			"00000000-0000-0000-0000-00005f0ef948" "00000000-0000-0000-0000-00005f0f51a5"
-			"0ce7c5a2-ca11-4f8f-a2ba-e9e155c08e13" "114e542e-3cc4-4f24-94ed-00518e54e7c9"
-			"12773dfb-5baa-43b3-a863-c78725818866" "15982c34-8ed2-4ead-8912-3a1b19d888a5"
-			"1b4fb3cd-64ed-4c8b-850c-3ed7632dff97" "1d8a58eb-8c48-420a-96ed-01c73af664bf"
-			"1f63a71d-d5c9-496c-9183-1be07403dc51" "21aecf3d-6384-4318-9e48-ff7b8dfc0c54"
-			"259f3556-314e-4607-a0d2-19df6df459a1" "286965c7-01d3-4f50-b388-e4f6728bd32a"
-			"2a5365c3-ab56-4173-8112-52ef34b46d10" "3e549ea0-3f9c-4ef1-976b-44cca3eaddbd"
-			"3e5eb03d-a4f3-4246-8dae-bf26cf4aa6f9" "438d0bd1-4037-4c62-8a95-af588608c29b"
-			"44c3aeb0-f42f-41b6-bfdf-fb2f40f311e6" "45b194b1-91ef-421c-a6b6-585c167593f1"
-			"47b3966e-7216-46fd-9008-3083836807c1" "48aaa1b8-29a1-41d1-8df7-9b463232aaab"
-			"4a310ad3-0daf-44b0-9cb5-694415919787" "4b88b718-fcc8-4a8e-8f85-42fbbcbb3287"
-			"4c527a9b-f3da-4e6f-b94e-41ec191aa565" "4e79f7fb-2727-4ba4-a6e2-76ed9eae419f"
-			"4f4c9ef1-cc5f-4812-ba3e-66031f0f1537" "4f76a923-2c7e-46a0-a9f9-167c67331774"
-			"55218f87-471e-43e3-8ef8-18b34d8c0196" "5d78a944-34d2-42c4-b616-fbccbb1f46c8"
-			"604e600c-de63-4d7f-95c7-9557c7add8ea" "60582be9-e1ba-4c6b-bab4-935b86994d82"
-			"621c8e0f-a340-4bd3-8564-73b538aea1b2" "69bdc665-5a29-4630-9dbd-ecc38ef80eb3"
-			"6c053e6b-95a2-4fc7-abd9-f65ac48ae0bd" "70fb35d6-628e-473d-825b-9c2dc71ceac1"
-			"75f3924a-2cad-423c-bec2-c8245a06b3a8" "765c65ba-196e-4eff-b62c-80b16ff2cadf"
-			"778e48e0-0c38-4b0c-86a5-3b5c8b67e66c" "77d288c7-27be-4bb8-9e40-a7228b4d72e3"
-			"7a154cfb-9fd7-4d56-b350-6f2945d837cb" "7c3d9c54-d967-49a2-bd2b-fc735b39d7da"
-			"7e34fe8a-a83e-4bac-9245-85442b80a206" "81ca30c1-b66e-469b-96f2-b452fd881d33"
-			"846aaa74-5293-4a15-b96b-b5c9e469cf9d" "846f600c-2e67-4dca-b3f7-695e19be4195"
-			"8593486e-0d8f-49bd-986b-a9b42d727c6b" "86eefeee-be40-4ac4-9324-91a6770de21a"
-			"8a3dc85f-06fc-46fc-8935-f3dd4d73dbee" "8a4d8e35-d9eb-420c-a032-b423576bbaa0"
-			"8f95e032-fcde-478c-9ed4-b7e89be8ede8" "983ded5c-8a9a-4551-b224-571c28b87b8d"
-			"9ae24187-b647-442a-94be-3a2f8d2cdde5" "9d4d9b8c-9df6-4e70-88fb-e2c87433b5ab"
-			"9f7b12a3-1557-42f9-a7a3-9c18524af37a" "a0e347b4-e7c7-490a-9ee1-f968537e24ea"
-			"a17680ff-419d-4bde-9c78-8616be03c889" "a2817302-751a-4e6e-a41c-2e244b7bbd62"
-			"a306e7ac-b81b-4380-a136-90ad84aaea1b" "a804ef38-1a25-4d22-9666-c7a59a56a202"
-			"aa224b40-a40a-4448-a036-b18c760f6a3e" "b9cc81cd-4502-4cbc-ad36-bcdc57d79e13"
-			"bb683ba2-70d1-4e90-97c4-48c7c736f922" "c13c7bce-a14d-4028-884c-353d0ddbf585"
-			"c172b9c1-04ae-4898-9ba5-de0221e36a33" "c19485c8-c714-4865-a21c-225b3c9c1fbd"
-			"c53f1d5d-16f4-4dc6-a231-ebdce90b9587" "c91186e9-b301-4429-9ac4-b995a49bcc24"
-			"cbdf4444-a3ed-4f5a-b95f-ca2376029642" "d6cdafda-839a-4aa7-8828-50e8b1800294"
-			"d73e4665-160e-4ff4-b3df-39a63bdf1394" "d8be65c4-813d-483c-89a3-c7e562cce929"
-			"d8e0477b-b6dd-40ba-be77-1c83038ff8c5" "d9c762a6-7697-4f49-867a-432d77be36a5"
-			"dc0a4179-0887-4db5-940d-7a74a3b8d251" "de5ab6b7-1b36-480e-af2b-04211b7d685c"
-			"e1825ad6-a2e4-43e5-8b80-0a0fe3d9bfe7" "e1aec4ba-9d8d-4184-bbc6-dad5cff46157"
-			"ebc7f3c0-14c2-4b40-9e1c-112aebad2cbc" "ecc11bdc-3b1e-46cf-a569-d1dde9a50798"
-			"f77eb040-ff89-403e-9a0d-72f08f81aaaf" "f7beeb0e-7a81-4e3c-89f0-2cb30376be14"
 		)
 	)
 )
